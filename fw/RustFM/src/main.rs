@@ -4,7 +4,11 @@
 mod mpu;
 mod rf;
 
+use embassy_sync::{blocking_mutex::raw::{CriticalSectionRawMutex, ThreadModeRawMutex}, rwlock::RwLock};
+use heapless::pool::arc::Arc;
 use mpu::read_mpu;
+use mpu::BUFFERED_QUATERNIONS;
+use mpu6050_dmp::quaternion::Quaternion;
 use rf::transmit;
 
 use embassy_executor::Spawner;
@@ -17,7 +21,12 @@ use embassy_stm32::{
     usart::{self, Uart},
     Config, Peri,
 };
+use embassy_sync::channel::Channel;
+use embassy_sync::blocking_mutex::raw::NoopRawMutex;
+
 use embassy_time::Timer;
+use crate::mpu::{QuaternionDataBuffer, telemetry_sender};
+
 use {defmt_rtt as _, panic_probe as _};
 
 bind_interrupts!(struct Irqs {
@@ -61,6 +70,9 @@ async fn main(spawner: Spawner) {
 
     let imu_int = ExtiInput::new(p.PA12, p.EXTI12, embassy_stm32::gpio::Pull::Down);
 
+    // create shared channel between the MPU polling thread and the UART sender for the quaternion data buffer.
+    static QUATERNION_CHANNEL: Channel::<ThreadModeRawMutex, Quaternion, BUFFERED_QUATERNIONS> = Channel::<ThreadModeRawMutex, Quaternion, BUFFERED_QUATERNIONS>::new();
+    
     let tmtry_uart = Uart::new(
         p.USART3,
         p.PC5,
@@ -73,11 +85,16 @@ async fn main(spawner: Spawner) {
     .unwrap();
     tmtry_uart.set_baudrate(9600).unwrap();
 
+    // dedicated task for the RF transmitter
     spawner.spawn(transmit(txpin.into())).unwrap();
+    // dedicated task for MPU data readings
     spawner
-        .spawn(read_mpu(iic, imu_int.into(), tmtry_uart.into()))
+        .spawn(read_mpu(iic, imu_int.into(), QUATERNION_CHANNEL.sender()))
         .unwrap();
-
+    // dedicated task for UART telemetry
+    spawner.spawn(telemetry_sender(tmtry_uart, QUATERNION_CHANNEL.receiver()));
+    // dedicated task for physical status leds
+    // TODO: replace with timer interrupt
     spawner.spawn(status_leds(ok_pin.into())).unwrap();
     Timer::after_millis(500).await;
     spawner.spawn(status_leds(fail_pin.into())).unwrap();
