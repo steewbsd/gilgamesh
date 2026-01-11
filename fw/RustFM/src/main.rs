@@ -4,7 +4,11 @@
 mod mpu;
 mod rf;
 
-use embassy_sync::{blocking_mutex::raw::{CriticalSectionRawMutex, ThreadModeRawMutex}, rwlock::RwLock};
+use embassy_sync::{
+    blocking_mutex::raw::{CriticalSectionRawMutex, ThreadModeRawMutex},
+    rwlock::RwLock,
+};
+
 use heapless::pool::arc::Arc;
 use mpu::read_mpu;
 use mpu::BUFFERED_QUATERNIONS;
@@ -22,10 +26,9 @@ use embassy_stm32::{
     Config, Peri,
 };
 use embassy_sync::channel::Channel;
-use embassy_sync::blocking_mutex::raw::NoopRawMutex;
 
+use crate::mpu::telemetry_sender;
 use embassy_time::Timer;
-use crate::mpu::{QuaternionDataBuffer, telemetry_sender};
 
 use {defmt_rtt as _, panic_probe as _};
 
@@ -71,8 +74,9 @@ async fn main(spawner: Spawner) {
     let imu_int = ExtiInput::new(p.PA12, p.EXTI12, embassy_stm32::gpio::Pull::Down);
 
     // create shared channel between the MPU polling thread and the UART sender for the quaternion data buffer.
-    static QUATERNION_CHANNEL: Channel::<ThreadModeRawMutex, Quaternion, BUFFERED_QUATERNIONS> = Channel::<ThreadModeRawMutex, Quaternion, BUFFERED_QUATERNIONS>::new();
-    
+    static QUATERNION_CHANNEL: Channel<ThreadModeRawMutex, Quaternion, BUFFERED_QUATERNIONS> =
+        Channel::<ThreadModeRawMutex, Quaternion, BUFFERED_QUATERNIONS>::new();
+
     let tmtry_uart = Uart::new(
         p.USART3,
         p.PC5,

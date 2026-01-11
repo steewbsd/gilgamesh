@@ -5,7 +5,11 @@ use embassy_stm32::{
     mode::Async,
     usart::Uart,
 };
-use embassy_sync::{blocking_mutex::raw::{CriticalSectionRawMutex, NoopRawMutex, ThreadModeRawMutex}, channel::{Channel, Receiver, Sender}, rwlock::RwLock};
+use embassy_sync::{
+    blocking_mutex::raw::{CriticalSectionRawMutex, NoopRawMutex, ThreadModeRawMutex},
+    channel::{Channel, Receiver, Sender},
+    rwlock::RwLock,
+};
 use embassy_time::{Delay, WithTimeout};
 use heapless::pool::arc::Arc;
 use mpu6050_dmp::{
@@ -26,7 +30,6 @@ struct MotionState {
     accel_y: f32,
     accel_z: f32,
     // magnetometer readings
-        
 }
 
 pub const BUFFERED_QUATERNIONS: usize = 5;
@@ -41,13 +44,20 @@ pub async fn telemetry_sender(
         let next_quaternion_value = channel.receive().await;
         // write the received values in the telemetry UART
         // TODO: data synchronization for the receiver
-        telemetry_port.write(&next_quaternion_value.w.to_le_bytes()).await;
-        telemetry_port.write(&next_quaternion_value.x.to_le_bytes()).await;
-        telemetry_port.write(&next_quaternion_value.y.to_le_bytes()).await;
-        telemetry_port.write(&next_quaternion_value.z.to_le_bytes()).await;
+        telemetry_port
+            .write(&next_quaternion_value.w.to_le_bytes())
+            .await;
+        telemetry_port
+            .write(&next_quaternion_value.x.to_le_bytes())
+            .await;
+        telemetry_port
+            .write(&next_quaternion_value.y.to_le_bytes())
+            .await;
+        telemetry_port
+            .write(&next_quaternion_value.z.to_le_bytes())
+            .await;
     }
 }
-
 
 #[embassy_executor::task]
 pub async fn read_mpu(
@@ -60,7 +70,7 @@ pub async fn read_mpu(
         .unwrap();
     // initialize the DMP processor for the MPU
     mpu.initialize_dmp(&mut Delay).await.unwrap();
-    
+
     // Configure calibration parameters
     // let _calibration_params = CalibrationParameters::new(
     //     mpu6050_dmp::accel::AccelFullScale::G2,
@@ -73,7 +83,7 @@ pub async fn read_mpu(
     //     .await
     //     .unwrap();
     // info!("Sensor Calibrated");
-    
+
     mpu.enable_dmp().await.unwrap();
     mpu.load_firmware().await.unwrap();
     mpu.boot_firmware().await.unwrap();
@@ -89,7 +99,7 @@ pub async fn read_mpu(
     // combining gyro and accel
     mpu.enable_fifo().await.unwrap();
     mpu.interrupt_data_ready_en().await.unwrap();
-    
+
     loop {
         // block until we get an interrupt from the MPU line
         ext.wait_for_rising_edge().await;
