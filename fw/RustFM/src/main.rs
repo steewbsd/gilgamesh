@@ -3,17 +3,18 @@
 
 mod mpu;
 mod rf;
+mod status;
 
-use embassy_sync::{
-    blocking_mutex::raw::{CriticalSectionRawMutex, ThreadModeRawMutex},
-    rwlock::RwLock,
-};
+use defmt::trace;
+use embassy_stm32::time::Hertz;
+use embassy_sync::blocking_mutex::raw::ThreadModeRawMutex;
 
-use heapless::pool::arc::Arc;
+use embassy_sync::mutex::Mutex;
 use mpu::read_mpu;
 use mpu::BUFFERED_QUATERNIONS;
 use mpu6050_dmp::quaternion::Quaternion;
 use rf::transmit;
+use status::SystemStatus;
 
 use embassy_executor::Spawner;
 use embassy_stm32::{
@@ -28,6 +29,8 @@ use embassy_stm32::{
 use embassy_sync::channel::Channel;
 
 use crate::mpu::telemetry_sender;
+use crate::status::status_leds;
+use crate::status::SharedStatus;
 use embassy_time::Timer;
 
 use {defmt_rtt as _, panic_probe as _};
@@ -40,23 +43,31 @@ bind_interrupts!(struct Irqs {
 
 #[embassy_executor::main]
 async fn main(spawner: Spawner) {
+    trace! {"Starting system up..."};
     let mut config = Config::default();
 
     config.rcc.hse = Some(rcc::Hse {
         freq: embassy_stm32::time::Hertz(12_000_000),
         mode: rcc::HseMode::Oscillator,
     });
-    let p = embassy_stm32::init(config);
 
-    // let iic = I2c::new_blocking(p.I2C1, p.PA9, p.PA10, i2c::Config::default());
+    config.rcc.sys = rcc::Sysclk::PLL1_R;
+    config.rcc.pll = Some(rcc::Pll {
+        source: rcc::PllSource::HSE,
+        prediv: rcc::PllPreDiv::DIV2,
+        mul: rcc::PllMul::MUL8,
+        divp: None,
+        divq: Some(rcc::PllQDiv::DIV2), // PLL1_Q clock (32 / 2 * 6 / 2), used for RNG
+        divr: Some(rcc::PllRDiv::DIV2), // sysclk 48Mhz clock (32 / 2 * 6 / 2)
+    });
+
+    let p = embassy_stm32::init(config);
+    let mut i2c_config = i2c::Config::default();
+    i2c_config.frequency = Hertz::khz(400);
+    i2c_config.gpio_speed = Speed::VeryHigh;
+
     let iic = I2c::new(
-        p.I2C1,
-        p.PA9,
-        p.PA10,
-        Irqs,
-        p.DMA1_CH6,
-        p.DMA1_CH7,
-        i2c::Config::default(),
+        p.I2C1, p.PA9, p.PA10, Irqs, p.DMA1_CH6, p.DMA1_CH7, i2c_config,
     );
     let _lsb_pin = Output::new(p.PA11, Level::Low, Speed::Low);
 
@@ -76,6 +87,7 @@ async fn main(spawner: Spawner) {
     // create shared channel between the MPU polling thread and the UART sender for the quaternion data buffer.
     static QUATERNION_CHANNEL: Channel<ThreadModeRawMutex, Quaternion, BUFFERED_QUATERNIONS> =
         Channel::<ThreadModeRawMutex, Quaternion, BUFFERED_QUATERNIONS>::new();
+    static SHARED_STATUS: SharedStatus = Mutex::new(SystemStatus::FAIL);
 
     let tmtry_uart = Uart::new(
         p.USART3,
@@ -87,31 +99,26 @@ async fn main(spawner: Spawner) {
         usart::Config::default(),
     )
     .unwrap();
-    tmtry_uart.set_baudrate(9600).unwrap();
+    tmtry_uart.set_baudrate(115200).unwrap();
+
+    trace! {"Initializing tasks..."};
 
     // dedicated task for the RF transmitter
     spawner.spawn(transmit(txpin.into())).unwrap();
     // dedicated task for MPU data readings
     spawner
-        .spawn(read_mpu(iic, imu_int.into(), QUATERNION_CHANNEL.sender()))
+        .spawn(read_mpu(iic, imu_int, QUATERNION_CHANNEL.sender()))
         .unwrap();
     // dedicated task for UART telemetry
-    spawner.spawn(telemetry_sender(tmtry_uart, QUATERNION_CHANNEL.receiver()));
+    spawner
+        .spawn(telemetry_sender(tmtry_uart, QUATERNION_CHANNEL.receiver()))
+        .unwrap();
     // dedicated task for physical status leds
     // TODO: replace with timer interrupt
-    spawner.spawn(status_leds(ok_pin.into())).unwrap();
-    Timer::after_millis(500).await;
-    spawner.spawn(status_leds(fail_pin.into())).unwrap();
-}
-
-#[embassy_executor::task(pool_size = 2)]
-async fn status_leds(p: Peri<'static, AnyPin>) {
-    let mut led = Output::new(p, Level::Low, Speed::Low);
-
-    loop {
-        led.set_high();
-        Timer::after_millis(500).await;
-        led.set_low();
-        Timer::after_millis(500).await;
-    }
+    // spawner.spawn(status_leds(ok_pin.into())).unwrap();
+    // Timer::after_millis(500).await;
+    // spawner.spawn(status_leds(fail_pin.into())).unwrap();
+    spawner
+        .spawn(status_leds(ok_pin.into(), fail_pin.into(), &SHARED_STATUS))
+        .unwrap();
 }

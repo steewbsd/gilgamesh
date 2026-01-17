@@ -1,0 +1,40 @@
+use embassy_stm32::{
+    gpio::{AnyPin, Level, Output, Speed},
+    Peri,
+};
+use embassy_sync::{blocking_mutex::raw::ThreadModeRawMutex, mutex::Mutex};
+use embassy_time::Timer;
+
+
+pub enum SystemStatus {
+    OK,
+    FAIL
+}
+
+pub type SharedStatus = Mutex<ThreadModeRawMutex, SystemStatus>;
+
+#[embassy_executor::task]
+pub async fn status_leds(led_ok_pin: Peri<'static, AnyPin>, led_fail_pin: Peri<'static, AnyPin>, status: &'static SharedStatus) {
+    let mut led_ok = Output::new(led_ok_pin, Level::Low, Speed::Low);
+    let led_fail = Output::new(led_fail_pin, Level::Low, Speed::Low);
+
+    loop {
+        {
+            let mutex_lock = status.lock().await;
+            let status_lock = mutex_lock;
+            match mutex_lock {
+                OK => {
+                    
+                },
+                FAIL => {
+                    
+                }
+            }
+            
+        }
+        led_ok.set_high();
+        Timer::after_millis(500).await;
+        led_ok.set_low();
+        Timer::after_millis(500).await;
+    }
+}
