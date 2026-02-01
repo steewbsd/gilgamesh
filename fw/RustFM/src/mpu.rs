@@ -75,11 +75,11 @@ pub async fn read_mpu(
     //     .await
     //     .unwrap();
     // trace!("Sensor Calibrated");
-
+    mpu.set_clock_source(mpu6050_dmp::clock_source::ClockSource::Xgyro).await.unwrap();
     mpu.enable_dmp().await.unwrap();
     mpu.load_firmware().await.unwrap();
     mpu.boot_firmware().await.unwrap();
-    mpu.set_sample_rate_divider(0).await.unwrap();
+    mpu.set_sample_rate_divider(4).await.unwrap();
     mpu.set_digital_lowpass_filter(mpu6050_dmp::config::DigitalLowPassFilter::Filter0)
         .await
         .unwrap();

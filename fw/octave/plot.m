@@ -1,6 +1,8 @@
 pkg load matgeom
 pkg load instrument-control
 
+graphics_toolkit("qt")
+
 tmtry_serial = serial("/dev/ttyUSB0", 9600);
 srl_flush(tmtry_serial);
 

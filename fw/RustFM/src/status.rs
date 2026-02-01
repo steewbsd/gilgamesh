@@ -1,6 +1,5 @@
 use embassy_stm32::{
-    gpio::{AnyPin, Level, Output, Speed},
-    Peri,
+    Peri, gpio::{AnyPin, Level, Output, Speed}, lptim::pwm::Pwm
 };
 use embassy_sync::{blocking_mutex::raw::ThreadModeRawMutex, mutex::Mutex};
 use embassy_time::Timer;

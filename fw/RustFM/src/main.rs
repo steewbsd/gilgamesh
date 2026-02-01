@@ -4,14 +4,19 @@
 mod mpu;
 mod rf;
 mod status;
+mod control;
+mod comm;
 
 use defmt::trace;
+use embassy_stm32::can;
+use embassy_stm32::can::Can;
+use embassy_stm32::peripherals::CAN1;
 use embassy_stm32::time::Hertz;
 use embassy_sync::blocking_mutex::raw::ThreadModeRawMutex;
 
 use embassy_sync::mutex::Mutex;
-use mpu::read_mpu;
 use mpu::BUFFERED_QUATERNIONS;
+use comm::CAN_BUFFER;
 use mpu6050_dmp::quaternion::Quaternion;
 use rf::transmit;
 use status::SystemStatus;
@@ -20,18 +25,18 @@ use embassy_executor::Spawner;
 use embassy_stm32::{
     bind_interrupts,
     exti::ExtiInput,
-    gpio::{AnyPin, Level, Output, Speed},
+    gpio::{Level, Output, Speed},
     i2c::{self, I2c},
     rcc::{self},
     usart::{self, Uart},
-    Config, Peri,
+    Config,
 };
 use embassy_sync::channel::Channel;
 
+use crate::{comm::comm_task, control::update_control_loop, mpu::read_mpu};
 use crate::mpu::telemetry_sender;
 use crate::status::status_leds;
 use crate::status::SharedStatus;
-use embassy_time::Timer;
 
 use {defmt_rtt as _, panic_probe as _};
 
@@ -39,6 +44,10 @@ bind_interrupts!(struct Irqs {
     I2C1_EV => i2c::EventInterruptHandler<embassy_stm32::peripherals::I2C1>;
     I2C1_ER => i2c::ErrorInterruptHandler<embassy_stm32::peripherals::I2C1>;
     USART3 => usart::InterruptHandler<embassy_stm32::peripherals::USART3>;
+    CAN1_RX0 => can::Rx0InterruptHandler<CAN1>;
+    CAN1_RX1 => can::Rx1InterruptHandler<CAN1>;
+    CAN1_SCE => can::SceInterruptHandler<CAN1>;
+    CAN1_TX => can::TxInterruptHandler<CAN1>;
 });
 
 #[embassy_executor::main]
@@ -62,6 +71,9 @@ async fn main(spawner: Spawner) {
     });
 
     let p = embassy_stm32::init(config);
+
+    let can_bus = Can::new(p.CAN1, p.PB8, p.PB9, Irqs);
+    
     let mut i2c_config = i2c::Config::default();
     i2c_config.frequency = Hertz::khz(400);
     i2c_config.gpio_speed = Speed::VeryHigh;
@@ -88,6 +100,7 @@ async fn main(spawner: Spawner) {
     static QUATERNION_CHANNEL: Channel<ThreadModeRawMutex, Quaternion, BUFFERED_QUATERNIONS> =
         Channel::<ThreadModeRawMutex, Quaternion, BUFFERED_QUATERNIONS>::new();
     static SHARED_STATUS: SharedStatus = Mutex::new(SystemStatus::FAIL);
+    static CAN_MSG_QUEUE: Channel<ThreadModeRawMutex, u32, CAN_BUFFER> = Channel::<ThreadModeRawMutex, u32, CAN_BUFFER>::new();
 
     let tmtry_uart = Uart::new(
         p.USART3,
@@ -110,14 +123,19 @@ async fn main(spawner: Spawner) {
         .spawn(read_mpu(iic, imu_int, QUATERNION_CHANNEL.sender()))
         .unwrap();
     // dedicated task for UART telemetry
+    #[cfg(telemetry)]
     spawner
         .spawn(telemetry_sender(tmtry_uart, QUATERNION_CHANNEL.receiver()))
         .unwrap();
-    // dedicated task for physical status leds
-    // TODO: replace with timer interrupt
-    // spawner.spawn(status_leds(ok_pin.into())).unwrap();
-    // Timer::after_millis(500).await;
-    // spawner.spawn(status_leds(fail_pin.into())).unwrap();
+    // dedicated task for CAN bus communications
+    spawner
+        .spawn(comm_task(can_bus, CAN_MSG_QUEUE.receiver()))
+        .unwrap();
+    // dedicated task for the quadcopter control loop
+    spawner
+        .spawn(update_control_loop(QUATERNION_CHANNEL.receiver()))
+        .unwrap();
+    // dedicated task for status leds
     spawner
         .spawn(status_leds(ok_pin.into(), fail_pin.into(), &SHARED_STATUS))
         .unwrap();
