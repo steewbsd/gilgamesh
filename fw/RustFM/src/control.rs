@@ -1,3 +1,5 @@
+use core::ops::{Add, Sub};
+
 use defmt::{info, trace};
 use embassy_sync::{blocking_mutex::raw::ThreadModeRawMutex, channel::Receiver};
 use mpu6050_dmp::{quaternion::Quaternion, yaw_pitch_roll::YawPitchRoll};
@@ -25,13 +27,48 @@ pub struct Controller {
     motors: [Motor; MOTOR_NUM],
     altitude: f64,
     velocity: f64,
-    last_ypr: YawPitchRoll,
+    // stores the last reference frame
+    last_frame: YawPitchRoll,
+    // stores the target body attitude desired, from a reference frame
+    attitude: YawPitchRoll
     // store the last and next quaternion values for the control calculus
+}
+
+pub struct Frame {
+    yaw: f32,
+    pitch: f32,
+    roll: f32
+}
+
+impl Add for Frame {
+    type Output = Self;
+
+    fn add(self, other: Self) -> Self {
+        Self {
+            yaw: self.yaw + other.yaw,
+            pitch: self.pitch + other.pitch,
+            roll: self.roll + other.roll
+        }
+    }
+}
+
+impl Sub for Frame {
+    type Output = Self;
+
+    fn sub(self, other: Self) -> Self {
+        Self {
+            yaw: self.yaw - other.yaw,
+            pitch: self.pitch - other.pitch,
+            roll: self.roll - other.roll
+        }
+    }
+
 }
 
 #[embassy_executor::task]
 pub async fn update_control_loop(
     quaternion_channel: Receiver<'static, ThreadModeRawMutex, Quaternion, BUFFERED_QUATERNIONS>,
+    target_frame: Frame,
 ) {
     let mut last_yaw: f32 = 0.0;
     let mut last_pitch: f32 = 0.0;
