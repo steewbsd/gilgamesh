@@ -8,7 +8,8 @@ mod control;
 mod comm;
 
 use defmt::trace;
-use embassy_stm32::can;
+use embassy_stm32::can::filter::Mask32;
+use embassy_stm32::can::{self, Fifo};
 use embassy_stm32::can::Can;
 use embassy_stm32::peripherals::CAN1;
 use embassy_stm32::time::Hertz;
@@ -33,7 +34,8 @@ use embassy_stm32::{
 };
 use embassy_sync::channel::Channel;
 
-use crate::{comm::comm_task, control::update_control_loop, mpu::read_mpu};
+use crate::control::Frame;
+use crate::{comm::can_tx_task, comm::can_rx_task, control::update_control_loop, mpu::read_mpu};
 use crate::mpu::telemetry_sender;
 use crate::status::status_leds;
 use crate::status::SharedStatus;
@@ -72,7 +74,19 @@ async fn main(spawner: Spawner) {
 
     let p = embassy_stm32::init(config);
 
-    let can_bus = Can::new(p.CAN1, p.PB8, p.PB9, Irqs);
+    let mut can_bus = Can::new(p.CAN1, p.PB8, p.PB9, Irqs);
+    
+    // enable the fifo 0 bank for storing the CAN message queue
+    can_bus.modify_filters().enable_bank(0, Fifo::Fifo0, Mask32::accept_all());
+    
+    // enable loopback for testing
+    can_bus.modify_config()
+        .set_loopback(true) // Receive own frames
+        .set_silent(true)
+        .set_bitrate(250_000);
+    can_bus.enable().await;
+
+    let (can_tx, can_rx) = can_bus.split();
     
     let mut i2c_config = i2c::Config::default();
     i2c_config.frequency = Hertz::khz(400);
@@ -129,11 +143,16 @@ async fn main(spawner: Spawner) {
         .unwrap();
     // dedicated task for CAN bus communications
     spawner
-        .spawn(comm_task(can_bus, CAN_MSG_QUEUE.receiver()))
+        .spawn(can_rx_task(can_rx))
         .unwrap();
+    // transmitter task
+    spawner
+        .spawn(can_tx_task(can_tx, CAN_MSG_QUEUE.receiver()))
+        .unwrap();
+
     // dedicated task for the quadcopter control loop
     spawner
-        .spawn(update_control_loop(QUATERNION_CHANNEL.receiver()))
+        .spawn(update_control_loop(QUATERNION_CHANNEL.receiver(), None))
         .unwrap();
     // dedicated task for status leds
     spawner

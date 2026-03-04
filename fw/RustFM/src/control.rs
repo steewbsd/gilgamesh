@@ -14,7 +14,7 @@ pub enum MotorTurningState {
 
 // holds the motor state, including its angular speed and direction.
 pub struct Motor {
-    angular_rotation_speed: f64,
+    angular_rotation_speed: f32,
     turning: MotorTurningState,
 }
 
@@ -68,7 +68,7 @@ impl Sub for Frame {
 #[embassy_executor::task]
 pub async fn update_control_loop(
     quaternion_channel: Receiver<'static, ThreadModeRawMutex, Quaternion, BUFFERED_QUATERNIONS>,
-    target_frame: Frame,
+    target_frame: Option<Frame>,
 ) {
     let mut last_yaw: f32 = 0.0;
     let mut last_pitch: f32 = 0.0;
