@@ -6350,7 +6350,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09542cde-5ac5-4c70-8fa5-4f7bf65a5475")
-		(property "Reference" "R35"
+		(property "Reference" "R34"
 			(at 171.45 107.442 90)
 			(effects
 				(font
@@ -6404,7 +6404,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "R35")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -6419,7 +6419,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09580f42-d11b-4ac2-bcc0-9731c8833233")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 96.266 142.748 0)
 			(effects
 				(font
@@ -6471,7 +6471,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6486,7 +6486,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bb6eedd-6c87-4fd3-a28f-b605479681f4")
-		(property "Reference" "TP18"
+		(property "Reference" "TP17"
 			(at 167.64 26.416 0)
 			(effects
 				(font
@@ -6538,7 +6538,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "TP18")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -6823,7 +6823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "177ae3e5-cc3b-4804-a28e-d2f42abfb26e")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 82.042 22.098 90)
 			(effects
 				(font
@@ -6875,7 +6875,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7379,7 +7379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25604df8-357d-46fe-a0df-643e0c23b55e")
-		(property "Reference" "R49"
+		(property "Reference" "R48"
 			(at 227.33 120.6499 0)
 			(effects
 				(font
@@ -7433,7 +7433,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "R49")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -7516,7 +7516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27f02da6-67db-43a1-8a9f-e7c787c5d332")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 102.87 52.07 90)
 			(effects
 				(font
@@ -7568,7 +7568,7 @@
 		(instances
 			(project ""
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8536,7 +8536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57d9cd2d-ff4b-4863-8fca-3851d7ca96a6")
-		(property "Reference" "D11"
+		(property "Reference" "D13"
 			(at 218.694 146.05 0)
 			(effects
 				(font
@@ -8605,7 +8605,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "D11")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -8620,7 +8620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59499021-ed31-4432-ae55-4aa395fb235b")
-		(property "Reference" "Q12"
+		(property "Reference" "Q11"
 			(at 128.524 111.252 0)
 			(effects
 				(font
@@ -8680,7 +8680,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "Q12")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -8762,7 +8762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b3ba5cb-4556-4cbd-8403-b90a764ee3d4")
-		(property "Reference" "TP22"
+		(property "Reference" "TP24"
 			(at 161.29 126.746 0)
 			(effects
 				(font
@@ -8814,7 +8814,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "TP22")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -8829,7 +8829,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c3f8a33-3e42-478c-a493-a3bb95c26540")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 132.842 64.008 0)
 			(effects
 				(font
@@ -8883,7 +8883,7 @@
 		(instances
 			(project ""
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9035,7 +9035,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68419c91-32be-4781-a4e5-20f79410dddb")
-		(property "Reference" "Q14"
+		(property "Reference" "Q13"
 			(at 217.424 132.842 0)
 			(effects
 				(font
@@ -9095,7 +9095,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "Q14")
+					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -9180,7 +9180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ef0a741-e4bf-42e6-8858-aa28758517d5")
-		(property "Reference" "R29"
+		(property "Reference" "R25"
 			(at 218.186 153.67 90)
 			(effects
 				(font
@@ -9232,7 +9232,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "R29")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -9444,7 +9444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a881386-afb2-4a1f-aa2a-29a56c6675f3")
-		(property "Reference" "Q11"
+		(property "Reference" "Q12"
 			(at 138.684 122.682 0)
 			(effects
 				(font
@@ -9504,7 +9504,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "Q11")
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -9586,7 +9586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89d6de50-423f-4bbc-86b8-c962f17ed5a8")
-		(property "Reference" "TP35"
+		(property "Reference" "TP7"
 			(at 220.98 42.926 0)
 			(effects
 				(font
@@ -9638,7 +9638,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "TP35")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -9723,7 +9723,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ba26791-5f77-49f2-825c-2336ed75155f")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 129.032 20.828 90)
 			(effects
 				(font
@@ -9775,7 +9775,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9791,7 +9791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f7fece5-6741-433f-b448-67b12d1bb5e0")
-		(property "Reference" "Q15"
+		(property "Reference" "Q14"
 			(at 173.99 130.8099 0)
 			(effects
 				(font
@@ -9839,6 +9839,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "X0202MN"
+			(at 171.45 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "3329f867-4ff7-4cc9-be19-678675fd97eb")
 		)
@@ -9854,7 +9863,7 @@
 		(instances
 			(project ""
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "Q15")
+					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -10222,7 +10231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a22c3042-c167-4979-9e08-fd0bc3d69821")
-		(property "Reference" "TP21"
+		(property "Reference" "TP20"
 			(at 189.23 126.746 0)
 			(effects
 				(font
@@ -10274,7 +10283,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "TP21")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -10354,7 +10363,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5c6a54c-c21c-4b7b-a866-ad7ee0c2a3da")
-		(property "Reference" "TP23"
+		(property "Reference" "TP26"
 			(at 29.21 35.306 0)
 			(effects
 				(font
@@ -10406,7 +10415,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "TP23")
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -10996,7 +11005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be21a756-5170-4f24-9a12-327a3e132571")
-		(property "Reference" "D13"
+		(property "Reference" "D12"
 			(at 165.1 46.736 0)
 			(effects
 				(font
@@ -11065,7 +11074,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "D13")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -11212,7 +11221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c457f409-7e41-4ad3-955e-b40163dec4b2")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 141.986 64.77 0)
 			(effects
 				(font
@@ -11264,7 +11273,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -11346,7 +11355,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd31e896-4128-42bf-acc0-bef886e22aaa")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 149.098 64.77 0)
 			(effects
 				(font
@@ -11398,7 +11407,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -11767,7 +11776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec99accd-4b1a-412b-b7ae-60b6dff899aa")
-		(property "Reference" "R28"
+		(property "Reference" "R26"
 			(at 172.466 51.816 90)
 			(effects
 				(font
@@ -11819,7 +11828,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "R28")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -11984,7 +11993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee58c784-dd76-4a75-b756-971657ca7add")
-		(property "Reference" "D12"
+		(property "Reference" "D11"
 			(at 260.35 121.92 0)
 			(effects
 				(font
@@ -12053,7 +12062,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "D12")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -12135,7 +12144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1e20a30-ca78-44a3-a778-536e88301df4")
-		(property "Reference" "R36"
+		(property "Reference" "R35"
 			(at 199.39 140.9699 0)
 			(effects
 				(font
@@ -12189,7 +12198,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "R36")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -12492,7 +12501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8facbe4-0e98-4f32-ace8-906450624852")
-		(property "Reference" "R34"
+		(property "Reference" "R31"
 			(at 138.43 144.7799 0)
 			(effects
 				(font
@@ -12546,7 +12555,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "R34")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -12626,7 +12635,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbae9ad5-0107-43dd-8b1f-4136151aaaed")
-		(property "Reference" "TP24"
+		(property "Reference" "TP27"
 			(at 146.05 53.086 0)
 			(effects
 				(font
@@ -12678,7 +12687,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "TP24")
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -12693,7 +12702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff783cca-a081-4d04-a580-95d308a58148")
-		(property "Reference" "TP34"
+		(property "Reference" "TP16"
 			(at 255.27 112.776 0)
 			(effects
 				(font
@@ -12745,7 +12754,7 @@
 		(instances
 			(project "PowerMonitor"
 				(path "/7009117b-bc51-40a3-946c-93f0a2806c1b"
-					(reference "TP34")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
