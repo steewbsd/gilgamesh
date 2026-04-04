@@ -8847,7 +8847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 133.0452 71.12 0)
 			(effects
 				(font
@@ -8866,6 +8866,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 132.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "470UF25VG130GF"
 			(at 132.08 67.31 0)
 			(effects
 				(font
@@ -9188,7 +9197,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100R"
 			(at 216.154 153.67 90)
 			(effects
 				(font
@@ -10793,7 +10802,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "150R"
 			(at 148.59 26.67 90)
 			(effects
 				(font
