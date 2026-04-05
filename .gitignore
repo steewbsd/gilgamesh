@@ -7,3 +7,7 @@ hw/fmu/fmu/fmu-backups
 /hw/FlightManagement/Outputs/
 /fw/RustFM/target/
 /fw/RustFM/target
+*~
+/hw/*/output
+/hw/*/*-backups
+#*#
