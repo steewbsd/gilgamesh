@@ -632,13 +632,17 @@
         "uuid": "2496396e-da71-4b2e-9ac4-452e5130442d"
       }
     ],
-    "used_designators": "L1,BT1-2,R1-3,SC1,C1-14,Y4,#PWR1-2,#PWR102-103,#PWR105-123,SW1-2,U1-2",
+    "used_designators": "SW3-6,L3-7,J4,C1-2,C15-42,C49-50,Y2-4,#PWR2-3,#PWR5-11,#PWR85-93,#PWR95-112,#PWR114,#PWR122-123,#PWR125-145,R4-24,U5-6,U8-13",
     "variants": []
   },
   "sheets": [
     [
       "2496396e-da71-4b2e-9ac4-452e5130442d",
       "Root"
+    ],
+    [
+      "d59aad70-30f5-48a2-8092-bdb11e43ed29",
+      "Radio"
     ]
   ],
   "text_variables": {},
