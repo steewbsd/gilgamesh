@@ -3761,7 +3761,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "MAX1473EUI+"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3771,7 +3771,7 @@
 					)
 				)
 			)
-			(property "Footprint" "steew:MAX1473EUI+"
+			(property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3782,7 +3782,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX1473.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3806,8 +3806,8 @@
 			)
 			(symbol "MAX1473EUI+_1_1"
 				(rectangle
-					(start -2.54 -1.27)
-					(end 29.21 -46.99)
+					(start -16.51 0)
+					(end 15.24 -45.72)
 					(stroke
 						(width 0)
 						(type solid)
@@ -3816,18 +3816,10 @@
 						(type background)
 					)
 				)
-				(text "MAX1473EUI+"
-					(at 13.462 -23.114 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input clock
-					(at -5.08 -3.81 0)
+				(pin bidirectional clock
+					(at 17.78 -2.54 180)
 					(length 2.54)
-					(name "XTAL1"
+					(name "XTAL2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3843,7 +3835,7 @@
 					)
 				)
 				(pin power_in line
-					(at 10.16 1.27 270)
+					(at 2.54 2.54 270)
 					(length 2.54)
 					(name "AVDD"
 						(effects
@@ -3860,8 +3852,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 -12.7 0)
+				(pin unspecified line
+					(at 17.78 -11.43 180)
 					(length 2.54)
 					(name "LNAIN"
 						(effects
@@ -3878,8 +3870,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 -15.24 0)
+				(pin unspecified line
+					(at 17.78 -13.97 180)
 					(length 2.54)
 					(name "LNASRC"
 						(effects
@@ -3897,7 +3889,7 @@
 					)
 				)
 				(pin power_in line
-					(at 7.62 -49.53 90)
+					(at 5.08 -48.26 90)
 					(length 2.54)
 					(name "AGND"
 						(effects
@@ -3915,7 +3907,7 @@
 					)
 				)
 				(pin output line
-					(at 31.75 -13.97 180)
+					(at -19.05 -12.7 0)
 					(length 2.54)
 					(name "LNAOUT"
 						(effects
@@ -3933,7 +3925,7 @@
 					)
 				)
 				(pin power_in line
-					(at 7.62 1.27 270)
+					(at 5.08 2.54 270)
 					(length 2.54)
 					(name "AVDD"
 						(effects
@@ -3951,7 +3943,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 -35.56 0)
+					(at 17.78 -34.29 180)
 					(length 2.54)
 					(name "MIXIN1"
 						(effects
@@ -3969,7 +3961,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 -38.1 0)
+					(at 17.78 -36.83 180)
 					(length 2.54)
 					(name "MIXIN2"
 						(effects
@@ -3987,7 +3979,7 @@
 					)
 				)
 				(pin power_in line
-					(at 10.16 -49.53 90)
+					(at 2.54 -48.26 90)
 					(length 2.54)
 					(name "AGND"
 						(effects
@@ -4005,7 +3997,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 -41.91 0)
+					(at 17.78 -40.64 180)
 					(length 2.54)
 					(name "IRSEL"
 						(effects
@@ -4023,7 +4015,7 @@
 					)
 				)
 				(pin output line
-					(at 31.75 -35.56 180)
+					(at -19.05 -34.29 0)
 					(length 2.54)
 					(name "MIXOUT"
 						(effects
@@ -4041,7 +4033,7 @@
 					)
 				)
 				(pin power_in line
-					(at 15.24 -49.53 90)
+					(at -2.54 -48.26 90)
 					(length 2.54)
 					(name "DGND"
 						(effects
@@ -4059,7 +4051,7 @@
 					)
 				)
 				(pin power_in line
-					(at 15.24 1.27 270)
+					(at -2.54 2.54 270)
 					(length 2.54)
 					(name "DVDD"
 						(effects
@@ -4077,7 +4069,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 -44.45 0)
+					(at 17.78 -43.18 180)
 					(length 2.54)
 					(name "AGCDIS"
 						(effects
@@ -4095,7 +4087,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 -8.89 0)
+					(at 17.78 -7.62 180)
 					(length 2.54)
 					(name "XTALSEL"
 						(effects
@@ -4113,7 +4105,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 -30.48 0)
+					(at 17.78 -29.21 180)
 					(length 2.54)
 					(name "IFIN1"
 						(effects
@@ -4131,7 +4123,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 -33.02 0)
+					(at 17.78 -31.75 180)
 					(length 2.54)
 					(name "IFIN2"
 						(effects
@@ -4148,8 +4140,8 @@
 						)
 					)
 				)
-				(pin output line
-					(at -5.08 -26.67 0)
+				(pin unspecified line
+					(at 17.78 -25.4 180)
 					(length 2.54)
 					(name "DFO"
 						(effects
@@ -4166,8 +4158,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 -21.59 0)
+				(pin unspecified line
+					(at 17.78 -20.32 180)
 					(length 2.54)
 					(name "DSN"
 						(effects
@@ -4184,8 +4176,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at 31.75 -24.13 180)
+				(pin unspecified line
+					(at -19.05 -22.86 0)
 					(length 2.54)
 					(name "OPP"
 						(effects
@@ -4202,8 +4194,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 -24.13 0)
+				(pin unspecified line
+					(at 17.78 -22.86 180)
 					(length 2.54)
 					(name "DFFB"
 						(effects
@@ -4220,8 +4212,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 -19.05 0)
+				(pin unspecified line
+					(at 17.78 -17.78 180)
 					(length 2.54)
 					(name "DSP"
 						(effects
@@ -4239,7 +4231,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 1.27 270)
+					(at -5.08 2.54 270)
 					(length 2.54)
 					(name "VDD5"
 						(effects
@@ -4257,7 +4249,7 @@
 					)
 				)
 				(pin output line
-					(at 31.75 -6.35 180)
+					(at -19.05 -5.08 0)
 					(length 2.54)
 					(name "DATAOUT"
 						(effects
@@ -4275,7 +4267,7 @@
 					)
 				)
 				(pin output line
-					(at 31.75 -8.89 180)
+					(at -19.05 -7.62 0)
 					(length 2.54)
 					(name "PDOUT"
 						(effects
@@ -4293,7 +4285,7 @@
 					)
 				)
 				(pin input inverted
-					(at 17.78 -49.53 90)
+					(at -5.08 -48.26 90)
 					(length 2.54)
 					(name "PWRDN"
 						(effects
@@ -4310,8 +4302,8 @@
 						)
 					)
 				)
-				(pin input clock
-					(at -5.08 -6.35 0)
+				(pin bidirectional clock
+					(at 17.78 -5.08 180)
 					(length 2.54)
 					(name "XTAL2"
 						(effects
@@ -10103,166 +10095,6 @@
 		)
 	)
 	(symbol
-		(lib_id "steew:MAX1473EUI+")
-		(at 64.77 121.92 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "26435b2c-54dc-433a-a43b-958b90ed7210")
-		(property "Reference" "U12"
-			(at 38.1 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 44.8467 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "steew:MAX1473EUI+"
-			(at 64.77 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "13"
-			(uuid "4d820dac-8544-4252-abd6-a00e0470ec05")
-		)
-		(pin "25"
-			(uuid "77fa5540-2b73-4e3d-a9db-040d8227fac1")
-		)
-		(pin "9"
-			(uuid "66f71bdf-df7a-4fd3-bbb8-9c3b779ecbb5")
-		)
-		(pin "15"
-			(uuid "497ee7f2-b6bb-4dac-872c-0e5274185117")
-		)
-		(pin "21"
-			(uuid "f609347d-ed49-45ef-9197-be20f56b2be7")
-		)
-		(pin "26"
-			(uuid "4931dd7e-a1e9-44e2-aa96-42a88e8dbe7f")
-		)
-		(pin "18"
-			(uuid "bcf80a71-a8b0-4737-bf2d-9c8cf87c5222")
-		)
-		(pin "19"
-			(uuid "8a69f735-e5f1-4039-90a6-702994200e03")
-		)
-		(pin "5"
-			(uuid "461146ee-4903-4d1e-8aa9-28c6022a5cb8")
-		)
-		(pin "10"
-			(uuid "cc7b7186-7eb7-4726-b8be-dcbf7cee7ca2")
-		)
-		(pin "20"
-			(uuid "5f9ef7e8-4707-4e37-98fb-bf63af333804")
-		)
-		(pin "14"
-			(uuid "352c98e7-cdfd-4d0a-8268-1e6e2711dc23")
-		)
-		(pin "11"
-			(uuid "ce93096a-d43d-4ba8-b5a4-9a77f78bf36c")
-		)
-		(pin "12"
-			(uuid "1f6c1216-d073-4895-975f-e6c33730f79e")
-		)
-		(pin "22"
-			(uuid "02eac6ec-57a6-4303-874c-36c0af3f5812")
-		)
-		(pin "23"
-			(uuid "d0ea66e4-1430-4394-ab9a-1d0c66e658a4")
-		)
-		(pin "4"
-			(uuid "8b99f6ab-09db-42e6-915f-2c9bfd408b78")
-		)
-		(pin "3"
-			(uuid "36a83dea-f48d-4319-ade6-d52e330b7205")
-		)
-		(pin "16"
-			(uuid "c18fca67-ea08-4da6-9ec7-a4dc78d76b19")
-		)
-		(pin "28"
-			(uuid "1cb13923-c36f-43c7-8275-06eafd836d64")
-		)
-		(pin "1"
-			(uuid "5ab9c636-aefd-4f2a-a7da-308c48761193")
-		)
-		(pin "7"
-			(uuid "99b3f9ab-9801-4fee-acf8-410bc0504eb1")
-		)
-		(pin "17"
-			(uuid "84c438aa-d597-4169-b244-f481e18929bd")
-		)
-		(pin "24"
-			(uuid "58d06708-ae35-483b-acaf-9b901527d323")
-		)
-		(pin "2"
-			(uuid "51e4c4b1-54e8-4448-b8fe-c96073ec86d4")
-		)
-		(pin "8"
-			(uuid "df793b4d-bea0-4503-9fc1-e515f4f5eb27")
-		)
-		(pin "6"
-			(uuid "f6f753c7-2f89-4587-b997-e4d068909fc7")
-		)
-		(pin "27"
-			(uuid "7130eca2-2220-498d-895e-b7cdd6124c42")
-		)
-		(instances
-			(project "RemoteController"
-				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 129.54 62.23 180)
 		(unit 1)
@@ -11040,6 +10872,165 @@
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
 					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "steew:MAX1473EUI+")
+		(at 52.07 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "362a0cb5-fdcc-4eea-9ba2-5ca64688600d")
+		(property "Reference" "U12"
+			(at 45.466 143.002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX1473EUI+"
+			(at 45.466 145.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
+			(at 52.07 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX1473.pdf"
+			(at 52.07 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "00716da7-c211-49bc-8a4d-88275706cb65")
+		)
+		(pin "25"
+			(uuid "de66bb87-389e-4503-8d3d-198269dabefa")
+		)
+		(pin "9"
+			(uuid "aa645899-120c-4b2d-9954-33d4c542633d")
+		)
+		(pin "15"
+			(uuid "e70d891a-3444-4711-a7e5-a25ce72d3926")
+		)
+		(pin "21"
+			(uuid "3cb76fb5-c128-4200-90e6-06d091b9715f")
+		)
+		(pin "26"
+			(uuid "aed900d0-883a-4d6e-83ab-c3d1fef5baf8")
+		)
+		(pin "18"
+			(uuid "3cacd0b3-45d0-4f31-857f-4538fb606d17")
+		)
+		(pin "19"
+			(uuid "e5e311c4-bcc7-48d9-a541-b95afda58887")
+		)
+		(pin "5"
+			(uuid "81d7098c-c091-48dd-9d53-0cf8c18132f9")
+		)
+		(pin "10"
+			(uuid "8798de43-699b-46bd-852b-6cffa12ee048")
+		)
+		(pin "20"
+			(uuid "bf277370-3cf7-44eb-9f42-470e216764c0")
+		)
+		(pin "14"
+			(uuid "4ff367bf-7312-4c2e-851c-a6470da8981e")
+		)
+		(pin "11"
+			(uuid "13d98983-4cc2-4814-ba1d-39c54398ddc4")
+		)
+		(pin "12"
+			(uuid "bf98b836-1c37-463b-ac05-5b2fae10e9bf")
+		)
+		(pin "22"
+			(uuid "aaae0b85-0464-48b6-a61e-52abcf87109c")
+		)
+		(pin "23"
+			(uuid "8692cbce-b69f-4777-a3bc-5299906eb273")
+		)
+		(pin "4"
+			(uuid "37fbc618-607d-42ee-9c2e-0b31cd7be3f1")
+		)
+		(pin "3"
+			(uuid "ad5adc9d-ee0b-4797-ba99-8a942b1a93a5")
+		)
+		(pin "16"
+			(uuid "3d35d42c-ede1-4d95-b7ea-dafe10e08f7b")
+		)
+		(pin "28"
+			(uuid "466c4ca1-ecd4-499d-944b-5dba02bcc348")
+		)
+		(pin "1"
+			(uuid "73c1fce3-f726-4476-85a8-9848212b8247")
+		)
+		(pin "7"
+			(uuid "0abcf35a-3692-455b-8d9c-5ee437589691")
+		)
+		(pin "17"
+			(uuid "c2e24fdd-cf68-4646-a854-c16c092ea542")
+		)
+		(pin "24"
+			(uuid "0011aa12-083a-48f2-8bb1-5915d3734ffd")
+		)
+		(pin "2"
+			(uuid "30d3ce62-52ff-4d38-9408-9d05408a61d3")
+		)
+		(pin "8"
+			(uuid "72bcb1c2-2460-42c3-8e12-b0fd02adc8ad")
+		)
+		(pin "6"
+			(uuid "4cf050e2-9e72-46a1-b437-d70812c05ca5")
+		)
+		(pin "27"
+			(uuid "16cf6c5c-8abf-45c5-99ad-cd4c11361d94")
+		)
+		(instances
+			(project "RemoteController"
+				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
+					(reference "U12")
 					(unit 1)
 				)
 			)
