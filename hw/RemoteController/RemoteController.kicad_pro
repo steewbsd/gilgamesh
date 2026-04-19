@@ -582,12 +582,54 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "PN",
+          "name": "PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KiLib_Generator",
+          "name": "KiLib_Generator",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -632,7 +674,7 @@
         "uuid": "2496396e-da71-4b2e-9ac4-452e5130442d"
       }
     ],
-    "used_designators": "SW3-6,L3-7,J4,C1-2,C15-42,C49-50,Y2-4,#PWR2-3,#PWR5-11,#PWR85-93,#PWR95-112,#PWR114,#PWR122-123,#PWR125-145,R4-24,U5-6,U8-13",
+    "used_designators": "J3,J5",
     "variants": []
   },
   "sheets": [
