@@ -14801,7 +14801,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_SPDT"
+		(property "Value" "ST-0-102-A01-T000-LF"
 			(at 29.21 101.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14812,7 +14812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
 			(at 24.13 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14836,6 +14836,17 @@
 		)
 		(property "Description" "Switch, single pole double throw"
 			(at 24.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "ST-0-102-A01-T000-LF"
+			(at 24.13 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

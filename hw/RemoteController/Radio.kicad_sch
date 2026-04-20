@@ -8190,6 +8190,65 @@
 		)
 		(uuid "e78ce987-5d96-4d47-92db-49bfc39867c3")
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 71.12 19.05) (xy 71.12 52.07) (xy 135.89 52.07) (xy 135.89 72.39) (xy 130.81 77.47) (xy 130.81 87.63)
+				(xy 160.02 87.63) (xy 172.72 100.33) (xy 172.72 105.41) (xy 166.37 111.76) (xy 161.29 111.76) (xy 160.02 113.03)
+				(xy 160.02 129.54) (xy 158.115 132.08) (xy 121.285 132.08) (xy 113.03 132.08) (xy 113.03 142.24)
+				(xy 113.03 151.13) (xy 113.03 157.48) (xy 114.3 157.48) (xy 119.38 157.48) (xy 123.825 157.48) (xy 143.51 157.48)
+				(xy 184.15 157.48) (xy 220.98 157.48) (xy 248.92 129.54) (xy 248.92 80.01) (xy 252.73 76.2) (xy 269.24 76.2)
+				(xy 281.94 63.5) (xy 281.94 26.67) (xy 274.32 19.05)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "d33bcdac-1037-4ef1-a6c6-0d6df9733609")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 106.68 19.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95a43788-60bd-40bc-83b3-9f709233dc0c")
+		(property "Net Class" "RF"
+			(at 107.3785 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 54.61 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 134.62 91.44 90)
@@ -15740,7 +15799,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "96a97dac-e4ae-4456-8320-e9164015bef6")
 		(property "Reference" "#PWR016"
 			(at 245.11 144.78 0)
@@ -15754,7 +15812,7 @@
 			)
 		)
 		(property "Value" "+3V0"
-			(at 245.11 135.89 0)
+			(at 246.38 136.652 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
