@@ -570,7 +570,13 @@
       "/Radio/~{EN_RXSAMPLE}": [
         "RF"
       ],
+      "/TXCLK": [
+        "RF"
+      ],
       "/VRX_SAMPLE": [
+        "RF"
+      ],
+      "/~{EN_RXSAMPLE}": [
         "RF"
       ],
       "/~{EN_TXSAMPLE}": [
@@ -889,7 +895,7 @@
         "uuid": "2496396e-da71-4b2e-9ac4-452e5130442d"
       }
     ],
-    "used_designators": "SW7-9",
+    "used_designators": "TH1-2,#PWR46-47,#PWR170,R20-21,SW7-9",
     "variants": []
   },
   "sheets": [

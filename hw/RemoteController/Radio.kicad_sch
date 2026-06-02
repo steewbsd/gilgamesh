@@ -6724,26 +6724,6 @@
 		)
 		(uuid "ff975285-931b-4d78-835f-e6b3d984b0af")
 	)
-	(label "TXCLK"
-		(at 73.66 50.8 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "26394863-273c-4d59-ba8e-54b752ceec68")
-	)
-	(label "~{EN_RXSAMPLE}"
-		(at 156.21 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "638e4928-7b9d-45f1-951f-5097750ac7ce")
-	)
 	(hierarchical_label "VTX_SAMPLE"
 		(shape output)
 		(at 60.96 73.66 180)
@@ -6832,6 +6812,17 @@
 		)
 		(uuid "98d89d76-8371-4d85-848f-a9cad22610a4")
 	)
+	(hierarchical_label "TXCLK"
+		(shape output)
+		(at 73.66 50.8 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc7459b5-daca-4794-8a9d-63f01fb42c2f")
+	)
 	(hierarchical_label "RX_BW_SEL1"
 		(shape input)
 		(at 35.56 147.32 180)
@@ -6853,6 +6844,17 @@
 			(justify right)
 		)
 		(uuid "d67dfb4c-245d-4c2f-9bfa-22e20149091e")
+	)
+	(hierarchical_label "~{EN_RXSAMPLE}"
+		(shape input)
+		(at 156.21 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7b80b36-47f5-4439-b1d0-f27822d026a6")
 	)
 	(hierarchical_label "~{RX_SHDN}"
 		(shape input)
