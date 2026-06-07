@@ -53,7 +53,7 @@
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
-          "corner_smoothing": 1,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -63,8 +63,8 @@
           "min_clearance": 0.2,
           "min_island_area": 0.0013161349,
           "min_thickness": 0.34,
-          "pad_connection": 1,
-          "remove_islands": 1,
+          "pad_connection": 2,
+          "remove_islands": 2,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -527,12 +527,13 @@
       },
       {
         "clearance": 0.2,
-        "name": "RF",
+        "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.34,
-        "tuning_profile": ""
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.8
       }
     ],
     "meta": {
@@ -720,8 +721,12 @@
     },
     "netclass_patterns": [
       {
-        "netclass": "RF",
-        "pattern": "RF*"
+        "netclass": "Default",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VBAT2"
       }
     ]
   },
@@ -895,7 +900,7 @@
         "uuid": "2496396e-da71-4b2e-9ac4-452e5130442d"
       }
     ],
-    "used_designators": "TH1-2,#PWR46-47,#PWR170,R20-21,SW7-9",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
