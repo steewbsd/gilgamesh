@@ -6991,7 +6991,7 @@
 		)
 		(uuid "239954d9-ec60-474b-a27a-f4067725f674")
 	)
-	(label "~{EN_TXSAMPLE}"
+	(label "EN_TXSAMPLE"
 		(at 137.16 80.01 90)
 		(effects
 			(font
@@ -7041,7 +7041,7 @@
 		)
 		(uuid "33c87082-40f0-4b23-b94b-6ceacb6f25be")
 	)
-	(label "~{EN_RXSAMPLE}"
+	(label "EN_RXSAMPLE"
 		(at 148.59 80.01 90)
 		(effects
 			(font
@@ -7211,7 +7211,7 @@
 		)
 		(uuid "78c91757-70b5-4693-af26-71b876b26310")
 	)
-	(label "~{EN_TXSAMPLE}"
+	(label "EN_TXSAMPLE"
 		(at 198.12 93.98 180)
 		(effects
 			(font
@@ -7461,7 +7461,7 @@
 		)
 		(uuid "e326358e-c05a-4a2c-b15e-1cf3c89a7819")
 	)
-	(label "~{EN_RXSAMPLE}"
+	(label "EN_RXSAMPLE"
 		(at 198.12 91.44 180)
 		(effects
 			(font
@@ -7670,7 +7670,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "043fe595-d245-487f-aa2a-9866413b0ea8")
-		(property "Reference" "SW9"
+		(property "Reference" "SW5"
 			(at 166.878 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7745,7 +7745,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "SW9")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -7762,7 +7762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05d17594-ca97-47cd-b96a-06e0962b8600")
-		(property "Reference" "R33"
+		(property "Reference" "R34"
 			(at 50.8 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7837,7 +7837,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R33")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -7947,7 +7947,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a1cb767-9157-40a7-8ef8-fe0c23f345a0")
-		(property "Reference" "SW7"
+		(property "Reference" "SW3"
 			(at 152.908 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8022,7 +8022,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "SW7")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -8197,7 +8197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ed83f6b-491f-45ba-b8e5-83dd0f263f62")
-		(property "Reference" "R8"
+		(property "Reference" "R32"
 			(at 64.77 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8272,7 +8272,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R8")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -8289,7 +8289,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f3248ad-b841-404a-a3dc-9dd9cdf385b9")
-		(property "Reference" "C55"
+		(property "Reference" "C51"
 			(at 85.852 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8364,7 +8364,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C55")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -8540,7 +8540,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1223b432-569c-4ac1-ae15-6b676c40d0c5")
-		(property "Reference" "R14"
+		(property "Reference" "R18"
 			(at 181.61 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8615,7 +8615,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R14")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8870,7 +8870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "187bc30b-5579-484b-9563-87aa55b70ee9")
-		(property "Reference" "C7"
+		(property "Reference" "C18"
 			(at 188.976 25.146 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8923,6 +8923,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 191.77 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2ac90c6-f53b-4d74-ac50-b4b49f16a4fc")
 		)
@@ -8932,7 +8943,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C7")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -8950,7 +8961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a735e4a-65b5-4281-ae8b-b4cebef759ff")
-		(property "Reference" "U2"
+		(property "Reference" "U16"
 			(at 68.58 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9047,7 +9058,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "U2")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -9111,6 +9122,17 @@
 			)
 		)
 		(property "Description" "Ceramic chip antenna with pin for PCB trace"
+			(at 279.4 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 279.4 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9306,7 +9328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "226e3546-5cdd-44bf-98f3-f4dd0c5752d9")
-		(property "Reference" "R2"
+		(property "Reference" "R36"
 			(at 93.98 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9379,7 +9401,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R2")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -9701,6 +9723,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 57.15 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "5f2a393f-4b68-44a8-9f30-9953a366e2e4")
 		)
@@ -9944,6 +9977,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 148.59 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "89988321-00fb-46ce-8d26-d55f898746f9")
 		)
@@ -9988,7 +10032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2dfbc95c-ebd8-4d09-8888-788570d42cbf")
-		(property "Reference" "SW6"
+		(property "Reference" "SW2"
 			(at 145.288 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10063,7 +10107,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "SW6")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -10081,7 +10125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e4dcde4-8b0c-470d-ad63-b5f5d621a124")
-		(property "Reference" "C3"
+		(property "Reference" "C25"
 			(at 262.89 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10136,6 +10180,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 259.08 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1e4ec66a-632e-4a70-a88f-44a14bf43960")
 		)
@@ -10145,7 +10200,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C3")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -10321,7 +10376,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "330d6fb5-b74c-4b45-8025-25d26a48eff4")
-		(property "Reference" "R21"
+		(property "Reference" "R38"
 			(at 189.23 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10396,7 +10451,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R21")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -10492,7 +10547,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35262f62-1fed-4cb0-b468-a9dc0269996c")
-		(property "Reference" "C6"
+		(property "Reference" "C17"
 			(at 266.954 73.406 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10545,6 +10600,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 270.51 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8cff9ae7-f190-4f32-a932-fc6a70d5af55")
 		)
@@ -10554,7 +10620,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C6")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -10731,7 +10797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e893631-4570-44f4-8675-89c8cf0c7b20")
-		(property "Reference" "C4"
+		(property "Reference" "C26"
 			(at 273.05 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10786,6 +10852,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 269.24 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6bf6a0c0-edb3-4d4c-a79d-db400a27353d")
 		)
@@ -10795,7 +10872,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C4")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -10812,7 +10889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42e9a049-3ec8-46fe-9555-badb6f96bbc6")
-		(property "Reference" "C10"
+		(property "Reference" "C57"
 			(at 38.608 79.248 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10887,7 +10964,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C10")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -10904,7 +10981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45402403-e4d4-4a70-b17d-8adec3f3ec8d")
-		(property "Reference" "R18"
+		(property "Reference" "R10"
 			(at 187.96 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10979,7 +11056,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R18")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11154,7 +11231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c8b3a1b-2b78-46c0-86de-9178924981a5")
-		(property "Reference" "R13"
+		(property "Reference" "R7"
 			(at 177.8 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11229,7 +11306,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R13")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11246,7 +11323,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d80c73c-0c2d-4a51-8e73-8ca189b3709d")
-		(property "Reference" "R20"
+		(property "Reference" "R22"
 			(at 260.35 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11321,7 +11398,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R20")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -11339,7 +11416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d967b22-4d13-480b-b0a3-6c34f53a4bbf")
-		(property "Reference" "L10"
+		(property "Reference" "L4"
 			(at 273.05 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11392,6 +11469,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 273.05 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "65fe73f9-75af-4791-b831-62b2db2328cb")
 		)
@@ -11401,7 +11489,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "L10")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -11419,7 +11507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4da5e0f7-dff7-4ca4-b95b-3c5083f681ce")
-		(property "Reference" "U11"
+		(property "Reference" "U10"
 			(at 22.86 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11512,7 +11600,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "U11")
+					(reference "U10")
 					(unit 3)
 				)
 			)
@@ -11552,7 +11640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Bulgin_BX0034_1xAAA"
+		(property "Footprint" "steew:BH-AAA-B5BA021"
 			(at 21.59 117.856 90)
 			(hide yes)
 			(show_name no)
@@ -11724,7 +11812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55bdebbf-1e22-4eb7-9ab4-61cee3d3ab5e")
-		(property "Reference" "R11"
+		(property "Reference" "R27"
 			(at 55.88 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11799,7 +11887,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R11")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -11816,7 +11904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59ca96fc-f6ce-40ae-8331-b9c209d7ed57")
-		(property "Reference" "SW8"
+		(property "Reference" "SW4"
 			(at 159.258 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11891,7 +11979,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "SW8")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -11909,7 +11997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bea147d-d4f3-42b0-98bb-5298ea7fd1d7")
-		(property "Reference" "U13"
+		(property "Reference" "U5"
 			(at 214.376 119.126 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11954,6 +12042,17 @@
 			)
 		)
 		(property "Description" "Multiprotocol BLE/2.4GHz Cortex-M4 SoC, QFN-48"
+			(at 231.14 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/no_lead"
 			(at 231.14 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12114,7 +12213,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "U13")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -12132,7 +12231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cf2cbe3-4ecb-4810-b5e2-8c65744b47b9")
-		(property "Reference" "C19"
+		(property "Reference" "C13"
 			(at 256.54 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12207,7 +12306,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C19")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -12304,7 +12403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60c50e14-9d9d-4bff-ac52-ba703736fccb")
-		(property "Reference" "H2"
+		(property "Reference" "H4"
 			(at 24.13 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12359,10 +12458,21 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 21.59 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "H2")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -12379,7 +12489,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62c6d27a-1724-4fd0-b54f-336238c4c519")
-		(property "Reference" "C16"
+		(property "Reference" "C37"
 			(at 32.512 141.224 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12452,7 +12562,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C16")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -12470,7 +12580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "631997e5-8b62-4851-821e-dcfa9e18768e")
-		(property "Reference" "U1"
+		(property "Reference" "U13"
 			(at 48.26 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12523,6 +12633,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 48.26 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "cacd9d09-86ea-47a4-88eb-b0ff0b9142e3")
 		)
@@ -12550,7 +12671,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "U1")
+					(reference "U13")
 					(unit 2)
 				)
 			)
@@ -12567,7 +12688,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64a6b720-742a-4006-81ac-b1107571393c")
-		(property "Reference" "C11"
+		(property "Reference" "C38"
 			(at 45.212 79.248 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12642,7 +12763,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C11")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -12659,7 +12780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65035b54-71d4-4b9d-8155-22c302f6e314")
-		(property "Reference" "U11"
+		(property "Reference" "U10"
 			(at 83.312 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12750,7 +12871,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "U11")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -12939,7 +13060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7104dfa5-e889-41fc-a93c-c3c907d6697a")
-		(property "Reference" "H1"
+		(property "Reference" "H3"
 			(at 24.13 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12994,10 +13115,21 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 21.59 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "H1")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -13014,7 +13146,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7306df76-bd3d-4f2f-b037-5af27d1ca8f0")
-		(property "Reference" "R12"
+		(property "Reference" "R6"
 			(at 173.99 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13089,7 +13221,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R12")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -13107,7 +13239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7452db44-3e49-44b0-98b6-5996fcdfe243")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 246.38 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13181,7 +13313,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -13200,7 +13332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "756c91de-8f1c-4b0c-a566-3a8142dd2b59")
-		(property "Reference" "L1"
+		(property "Reference" "L8"
 			(at 93.98 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13273,7 +13405,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "L1")
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -13290,7 +13422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77031f92-3062-41aa-91ae-b14b37d58a94")
-		(property "Reference" "C5"
+		(property "Reference" "C16"
 			(at 266.954 83.566 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13343,6 +13475,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 270.51 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "20fc31f6-9db6-42f5-ab39-80bdc7bdf7ef")
 		)
@@ -13352,7 +13495,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C5")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -13370,7 +13513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77c5a3e8-9cf4-4180-a916-694cc53c574f")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 24.13 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13425,10 +13568,21 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 21.59 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -13577,6 +13731,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 148.59 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "89988321-00fb-46ce-8d26-d55f898746fa")
 		)
@@ -13622,7 +13787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b732e21-a97a-42b8-8909-c83052efce8d")
-		(property "Reference" "C8"
+		(property "Reference" "C23"
 			(at 188.468 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13675,6 +13840,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 191.77 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4b0cd830-880b-4a96-9b1f-0ab038f42d12")
 		)
@@ -13684,7 +13860,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C8")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -13701,7 +13877,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7bca2478-cca9-47dd-8192-a347ede4edef")
-		(property "Reference" "R3"
+		(property "Reference" "R37"
 			(at 78.74 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13774,7 +13950,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R3")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -13871,7 +14047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "873dcb1e-5c2c-497a-8cf5-fa304e363150")
-		(property "Reference" "R19"
+		(property "Reference" "R9"
 			(at 187.96 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13946,7 +14122,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R19")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -14042,7 +14218,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e37a68e-7de7-4b86-88c8-bb32b8fd68ed")
-		(property "Reference" "C14"
+		(property "Reference" "C55"
 			(at 82.042 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14117,7 +14293,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C14")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -14135,7 +14311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f0a71e7-85ab-4dcf-a06c-9bef43c9a496")
-		(property "Reference" "L2"
+		(property "Reference" "L3"
 			(at 264.16 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14188,6 +14364,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 264.16 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "52d254a5-0d55-4de7-b659-ff1466cefcea")
 		)
@@ -14197,7 +14384,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "L2")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -14214,7 +14401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f661e5c-c97d-4984-984f-b7465949b0c7")
-		(property "Reference" "U11"
+		(property "Reference" "U10"
 			(at 61.468 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14305,7 +14492,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "U11")
+					(reference "U10")
 					(unit 2)
 				)
 			)
@@ -14558,7 +14745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9806946b-f0c3-4fe4-9dfd-bab5261ada7f")
-		(property "Reference" "H4"
+		(property "Reference" "H1"
 			(at 24.13 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14613,10 +14800,21 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 21.59 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "H4")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -14753,6 +14951,17 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 148.59 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 148.59 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -15278,7 +15487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b31dc68b-d3fa-4638-9a29-8451c4785b8e")
-		(property "Reference" "R15"
+		(property "Reference" "R5"
 			(at 170.18 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15353,7 +15562,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R15")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -15529,7 +15738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfa8481f-31e7-478f-9798-e8f5743d4dba")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 29.21 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15607,7 +15816,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -15625,7 +15834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c095a396-49ff-4e74-8162-baa5c7ac3a0b")
-		(property "Reference" "C22"
+		(property "Reference" "C14"
 			(at 278.892 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15700,7 +15909,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C22")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -15717,7 +15926,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4757c0d-475e-49b8-9e90-db4af2edf94f")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 187.96 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15792,7 +16001,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -15809,7 +16018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c83920ca-b0b5-4568-b597-30df90e1d73b")
-		(property "Reference" "C12"
+		(property "Reference" "C54"
 			(at 99.568 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15884,7 +16093,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C12")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -15901,7 +16110,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf1ad00c-08d8-4d10-ad45-27ef23d93dcd")
-		(property "Reference" "C56"
+		(property "Reference" "C52"
 			(at 117.094 163.576 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15976,7 +16185,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C56")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -16154,7 +16363,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d76d97fe-dd8e-4866-a3dc-061a9bace94c")
-		(property "Reference" "C24"
+		(property "Reference" "C34"
 			(at 215.392 27.686 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16229,7 +16438,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C24")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -16247,7 +16456,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d93c4149-4ff9-4097-a0f5-a307713d3563")
-		(property "Reference" "C23"
+		(property "Reference" "C31"
 			(at 215.646 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16322,7 +16531,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C23")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -16339,7 +16548,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da96632d-67d5-401c-99d3-219f001312b0")
-		(property "Reference" "Y5"
+		(property "Reference" "Y3"
 			(at 193.294 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16414,7 +16623,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "Y5")
+					(reference "Y3")
 					(unit 1)
 				)
 			)
@@ -16484,6 +16693,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 148.59 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "71e57680-15b3-4d4e-8148-a91a315c049f")
 		)
@@ -16528,7 +16748,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de1441a4-d541-4a03-82b4-3625fbcbbcdb")
-		(property "Reference" "R9"
+		(property "Reference" "R33"
 			(at 64.77 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16603,7 +16823,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R9")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -16699,7 +16919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2d3c5cd-c6ee-455a-b751-da53a6f43fa1")
-		(property "Reference" "R17"
+		(property "Reference" "R11"
 			(at 187.96 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16774,7 +16994,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R17")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -16971,7 +17191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Bulgin_BX0034_1xAAA"
+		(property "Footprint" "steew:BH-AAA-B5BA021"
 			(at 21.59 130.556 90)
 			(hide yes)
 			(show_name no)
@@ -17590,6 +17810,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 107.95 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "89988321-00fb-46ce-8d26-d55f898746fc")
 		)
@@ -17701,6 +17932,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 189.23 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e3dbc65b-f225-4c3f-9788-43a6f50d9790")
 		)
@@ -17783,6 +18025,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 97.79 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "89988321-00fb-46ce-8d26-d55f898746fd")
 		)
@@ -17827,7 +18080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f184499f-91d4-424d-b546-15a8b627d8b1")
-		(property "Reference" "C13"
+		(property "Reference" "C53"
 			(at 106.172 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17902,7 +18155,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C13")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -17919,7 +18172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6bb3327-6bcc-4f49-a6e7-3ba39e4a3bf2")
-		(property "Reference" "R1"
+		(property "Reference" "R35"
 			(at 53.34 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17994,7 +18247,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R1")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -18090,7 +18343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f94d1249-adee-49fd-a49e-f5e538b572a5")
-		(property "Reference" "Y1"
+		(property "Reference" "Y2"
 			(at 256.54 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18145,17 +18398,6 @@
 				)
 			)
 		)
-		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
-			(at 274.32 76.2 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PN" "X322532MOB4SI"
 			(at 261.62 76.2 90)
 			(hide yes)
@@ -18169,6 +18411,17 @@
 		)
 		(property "Field8" ""
 			(at 261.62 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "crystal_resonator_oscillator"
+			(at 261.62 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18193,7 +18446,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "Y1")
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -18368,7 +18621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc92beeb-d18c-4039-84ad-f8e434ec2912")
-		(property "Reference" "C9"
+		(property "Reference" "C56"
 			(at 32.004 79.248 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18443,7 +18696,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C9")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -18540,7 +18793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff42b864-3326-42fc-beeb-5a6a8752ad7b")
-		(property "Reference" "R10"
+		(property "Reference" "R26"
 			(at 77.47 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18615,7 +18868,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R10")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -18632,7 +18885,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff66ae79-5c96-421f-b092-cd899770fbb1")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 271.018 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18688,6 +18941,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/JST"
+			(at 275.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "689d826b-f634-462d-a926-b58ea72d8432")
 		)
@@ -18703,7 +18967,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -18721,7 +18985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffe87bb0-8b11-4be8-b62a-4e05dcdb84ac")
-		(property "Reference" "C20"
+		(property "Reference" "C32"
 			(at 263.652 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18796,7 +19060,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C20")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -18840,7 +19104,7 @@
 				(justify left top)
 			)
 		)
-		(pin "~{EN_TXSAMPLE}" input
+		(pin "EN_TXSAMPLE" input
 			(at 137.16 60.96 270)
 			(uuid "ff18548b-5e68-4de2-a4dc-c1d3a91a2e2f")
 			(effects
@@ -18960,7 +19224,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{EN_RXSAMPLE}" input
+		(pin "EN_RXSAMPLE" input
 			(at 148.59 60.96 270)
 			(uuid "a8148f63-3a83-45c1-a3f9-db28f123666f")
 			(effects

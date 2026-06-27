@@ -550,6 +550,9 @@
       "/DATAOUT": [
         "RF"
       ],
+      "/EN_RXSAMPLE": [
+        "RF"
+      ],
       "/PDOUT": [
         "RF"
       ],
@@ -563,6 +566,9 @@
         "RF"
       ],
       "/Radio/LNAOUT": [
+        "RF"
+      ],
+      "/Radio/Net-(U16-OUT)": [
         "RF"
       ],
       "/Radio/TXCLK": [
@@ -589,6 +595,12 @@
       "GND": [
         "RF"
       ],
+      "Net-(C11-Pad1)": [
+        "RF"
+      ],
+      "Net-(C19-Pad2)": [
+        "RF"
+      ],
       "Net-(C29-Pad1)": [
         "RF"
       ],
@@ -598,10 +610,22 @@
       "Net-(C31-Pad1)": [
         "RF"
       ],
+      "Net-(C33-Pad1)": [
+        "RF"
+      ],
       "Net-(C34-Pad1)": [
         "RF"
       ],
+      "Net-(C41-Pad1)": [
+        "RF"
+      ],
+      "Net-(C43-Pad1)": [
+        "RF"
+      ],
       "Net-(C43-Pad2)": [
+        "RF"
+      ],
+      "Net-(C44-Pad1)": [
         "RF"
       ],
       "Net-(C47-Pad1)": [
@@ -613,7 +637,19 @@
       "Net-(C60-Pad2)": [
         "RF"
       ],
+      "Net-(J2-In)": [
+        "RF"
+      ],
       "Net-(J4-In)": [
+        "RF"
+      ],
+      "Net-(U1-RF1)": [
+        "RF"
+      ],
+      "Net-(U1-RF2)": [
+        "RF"
+      ],
+      "Net-(U1-RFC)": [
         "RF"
       ],
       "Net-(U10-CPL)": [
@@ -688,6 +724,24 @@
       "Net-(U17-INLO)": [
         "RF"
       ],
+      "Net-(U17-RFIN)": [
+        "RF"
+      ],
+      "Net-(U18-RFIN)": [
+        "RF"
+      ],
+      "Net-(U4-CPL)": [
+        "RF"
+      ],
+      "Net-(U4-IN)": [
+        "RF"
+      ],
+      "Net-(U4-ISO)": [
+        "RF"
+      ],
+      "Net-(U4-OUT)": [
+        "RF"
+      ],
       "Net-(U5-RF1)": [
         "RF"
       ],
@@ -697,13 +751,31 @@
       "Net-(U5-RFC)": [
         "RF"
       ],
+      "Net-(U6-INLO)": [
+        "RF"
+      ],
       "Net-(U6-PAOUT)": [
+        "RF"
+      ],
+      "Net-(U7-CPL)": [
+        "RF"
+      ],
+      "Net-(U7-IN)": [
+        "RF"
+      ],
+      "Net-(U7-ISO)": [
+        "RF"
+      ],
+      "Net-(U7-OUT)": [
         "RF"
       ],
       "Net-(U8-INHI)": [
         "RF"
       ],
       "Net-(U8-INLO)": [
+        "RF"
+      ],
+      "Net-(U9-PAOUT)": [
         "RF"
       ],
       "unconnected-(U10-NC-Pad4)": [
@@ -716,6 +788,18 @@
         "RF"
       ],
       "unconnected-(U16-NC-Pad5)": [
+        "RF"
+      ],
+      "unconnected-(U4-NC-Pad4)": [
+        "RF"
+      ],
+      "unconnected-(U4-NC-Pad5)": [
+        "RF"
+      ],
+      "unconnected-(U7-NC-Pad4)": [
+        "RF"
+      ],
+      "unconnected-(U7-NC-Pad5)": [
         "RF"
       ]
     },
@@ -813,7 +897,7 @@
           "group_by": false,
           "label": "PN",
           "name": "PN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -849,6 +933,18 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "InvenTree",
+          "name": "InvenTree",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field8",
+          "name": "Field8",
           "show": false
         }
       ],
@@ -900,7 +996,7 @@
         "uuid": "2496396e-da71-4b2e-9ac4-452e5130442d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C5,#PWR13,#PWR136-137,#PWR160,#PWR171,U17-18,R23,R39-40",
     "variants": []
   },
   "sheets": [
