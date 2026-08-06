@@ -6860,7 +6860,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0062328e-1152-4107-a529-2071a4cc208f")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 135.89 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6926,6 +6926,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 134.62 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 134.62 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 134.62 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "FRC0402J103 TS"
+			(at 134.62 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fd8ac27f-e045-4fac-8f3e-0a8d9dd2d969")
 		)
@@ -6935,7 +6979,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7032,7 +7076,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03d08019-fdf6-4c87-84af-280a505a4d8c")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 166.878 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7096,6 +7140,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 163.83 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 163.83 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 163.83 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A104KA5NNNC"
+			(at 163.83 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8f4972e7-2af9-4943-8674-8e2088f7d7fd")
 		)
@@ -7105,7 +7193,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -7355,6 +7443,39 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 102.87 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 102.87 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 102.87 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3b2d46c1-436c-419d-9f67-b95409b3980e")
 		)
@@ -7447,6 +7568,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 220.98 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 220.98 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 220.98 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "SPF5043Z"
+			(at 220.98 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "86e7b170-34dd-412b-9263-af679d89eada")
 		)
@@ -7479,7 +7644,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f8e2ef4-709a-45cc-8bfe-c27b0d94e388")
-		(property "Reference" "C22"
+		(property "Reference" "C20"
 			(at 68.326 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7543,6 +7708,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 71.12 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 71.12 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 71.12 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A104KA5NNNC"
+			(at 71.12 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "89cf984c-bfb4-46fd-b1c4-03831e53925c")
 		)
@@ -7552,7 +7761,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C22")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -7569,7 +7778,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "116b2a38-e7a4-4554-b82d-fbdaccc594f5")
-		(property "Reference" "C12"
+		(property "Reference" "C10"
 			(at 68.326 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7633,6 +7842,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 71.12 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 71.12 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 71.12 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A475MO5NUNC"
+			(at 71.12 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "91c452f8-f7b4-4cf3-b4f7-e1eb0d0d3685")
 		)
@@ -7642,7 +7895,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C12")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7660,7 +7913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13befd4e-d5eb-4525-a2c8-4979a4fb79b8")
-		(property "Reference" "R20"
+		(property "Reference" "R19"
 			(at 166.37 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7726,6 +7979,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 163.83 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 163.83 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 163.83 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "FRC0402F91R0TS"
+			(at 163.83 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9181a7de-5f9c-4f3d-8bad-7e442ef65b6b")
 		)
@@ -7735,7 +8032,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "R20")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -7753,7 +8050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "145b84c9-c593-48a5-9088-c7149d4a5407")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 194.31 125.7301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7819,6 +8116,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 196.85 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 196.85 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 196.85 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RT0402BRE0750RL"
+			(at 196.85 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6c8438b2-7623-40ad-8fcc-5c8483e1f7c7")
 		)
@@ -7828,7 +8169,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8004,7 +8345,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18aad707-e055-4eed-a11b-39f1f9375127")
-		(property "Reference" "C41"
+		(property "Reference" "C37"
 			(at 166.37 38.608 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8068,6 +8409,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 166.37 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 166.37 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "TCC0402X7R102K500AT"
+			(at 166.37 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9eeafe63-aca1-4763-b48e-c5fabac997e3")
 		)
@@ -8077,7 +8462,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C41")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -8174,7 +8559,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ab61e4b-98dc-47e5-9336-87f42dfe94d3")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 133.35 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8238,6 +8623,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 129.54 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 129.54 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 129.54 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A104KA5NNNC"
+			(at 129.54 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4bd428ca-4779-40ba-a714-fddc1c1a028a")
 		)
@@ -8247,7 +8676,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8343,7 +8772,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c26cd9b-3a09-4f82-a77b-aab2edb2eefb")
-		(property "Reference" "R23"
+		(property "Reference" "R22"
 			(at 137.414 76.708 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8409,6 +8838,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 135.89 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 135.89 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 135.89 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "FRC0402F52R3TS"
+			(at 135.89 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c0c2f4ad-812e-4480-9fc7-2dfc287899ca")
 		)
@@ -8418,7 +8891,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "R23")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -8435,7 +8908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ca38290-eb4b-4e89-a5b8-664a9a5e7c1f")
-		(property "Reference" "C30"
+		(property "Reference" "C27"
 			(at 150.876 37.338 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8499,6 +8972,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 152.4 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 152.4 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 152.4 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CC0402JRNPO9BN681"
+			(at 152.4 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e48daca9-308f-486b-8423-bf0139822bc6")
 		)
@@ -8508,7 +9025,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C30")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -8605,7 +9122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28c400fb-8dd9-4ac3-b7f9-f51b5bd7e247")
-		(property "Reference" "R39"
+		(property "Reference" "R13"
 			(at 166.624 121.158 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8671,6 +9188,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 165.1 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 165.1 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 165.1 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "FRC0402F52R3TS"
+			(at 165.1 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2cc90978-da33-4bb5-9899-fd5e0562215f")
 		)
@@ -8680,7 +9241,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "R39")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8697,7 +9258,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a8f9b47-65ea-4541-9db1-173d000c355c")
-		(property "Reference" "C29"
+		(property "Reference" "C26"
 			(at 144.272 37.338 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8761,6 +9322,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 146.05 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 146.05 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 146.05 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "0402B221K500NT"
+			(at 146.05 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f19f31fd-cfa6-450a-b0f1-892ef4005994")
 		)
@@ -8770,7 +9375,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C29")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -8830,6 +9435,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 190.5 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 190.5 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 190.5 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 190.5 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "H3-TCD-12-222X+"
 			(at 190.5 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9094,6 +9743,50 @@
 		)
 		(property "KiLib_Generator" "crystal_resonator_oscillator"
 			(at 72.39 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 72.39 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 72.39 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 72.39 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "L327S120U11L"
+			(at 72.39 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9451,6 +10144,39 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 248.92 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 248.92 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 248.92 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "3fb9ee1d-a06d-4c21-8678-1a90af19b1b6")
 		)
@@ -9567,7 +10293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41733ae7-4fb0-4aa3-8f06-9c74dbed84e6")
-		(property "Reference" "R21"
+		(property "Reference" "R20"
 			(at 171.45 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9631,6 +10357,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 171.45 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 171.45 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 171.45 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" " FRC0402J820 TS"
+			(at 171.45 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d6d6ef6b-d8a0-458e-a259-5f731caab76f")
 		)
@@ -9640,7 +10410,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "R21")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9815,7 +10585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4875b2fd-6a9f-4750-abbb-2d35cefe8515")
-		(property "Reference" "R12"
+		(property "Reference" "R11"
 			(at 261.62 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9881,6 +10651,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 261.62 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 261.62 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 261.62 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "FRC0402J103 TS"
+			(at 261.62 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "09947740-a188-4fa5-95b3-0d1c1389ad39")
 		)
@@ -9890,7 +10704,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10068,7 +10882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52253bb6-1df6-475b-b69c-257d75e97e89")
-		(property "Reference" "R30"
+		(property "Reference" "R29"
 			(at 88.9 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10132,6 +10946,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 88.9 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 88.9 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 88.9 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RT0402BRD07100RL"
+			(at 88.9 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1437ca7c-851a-4155-b6a4-8676141dd38f")
 		)
@@ -10141,7 +10999,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "R30")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -10317,7 +11175,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "559c9ae7-df03-4eaf-a069-955cfe1d126d")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 214.122 119.888 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10381,6 +11239,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 215.9 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 215.9 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 215.9 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "0402B221K500NT"
+			(at 215.9 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "52550fad-598e-47c5-a6bc-bf0f06a40b87")
 		)
@@ -10390,7 +11292,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10407,7 +11309,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58da61e4-8e43-48fa-9d25-d7602ba2c900")
-		(property "Reference" "C36"
+		(property "Reference" "C33"
 			(at 25.146 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10473,6 +11375,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 30.48 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 30.48 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 30.48 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CC0402JRNPO9BN100"
+			(at 30.48 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ce64be97-1c35-4c76-a233-7f20e77b3b85")
 		)
@@ -10482,7 +11428,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C36")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -10555,6 +11501,50 @@
 			)
 		)
 		(property "KiLib_Generator" "package/gullwing"
+			(at 265.43 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 265.43 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 265.43 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 265.43 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "LM358"
 			(at 265.43 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -10753,6 +11743,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 60.96 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 60.96 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 60.96 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A104KA5NNNC"
+			(at 60.96 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1f0b9721-32eb-42b2-b833-b14583cdf86f")
 		)
@@ -10858,7 +11892,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a755046-1aed-4864-96c5-3e51b2521c86")
-		(property "Reference" "U17"
+		(property "Reference" "U7"
 			(at 112.1567 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10912,6 +11946,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 125.73 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 125.73 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 125.73 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "AD8314ARMZ-REEL"
+			(at 125.73 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "95f85808-1644-4c1a-b068-434ca1c34700")
 		)
@@ -10939,7 +12017,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "U17")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -10956,7 +12034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70cc4028-abc6-40b5-a2fd-6f525e638fca")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 170.18 53.086 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11022,6 +12100,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 168.91 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 168.91 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 168.91 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RT0402BRE0750RL"
+			(at 168.91 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "538ded5c-e723-46f7-a2ef-76c34b842af1")
 		)
@@ -11031,7 +12153,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -11048,7 +12170,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "713fc794-8769-46e6-9f25-8be2667610c1")
-		(property "Reference" "C47"
+		(property "Reference" "C43"
 			(at 82.296 37.338 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11112,6 +12234,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 83.82 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 83.82 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 83.82 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A104KA5NNNC"
+			(at 83.82 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b77514d7-ac33-456b-8ca8-97030c6bd51b")
 		)
@@ -11121,7 +12287,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C47")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -11362,6 +12528,39 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 273.05 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 273.05 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 273.05 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3269c31b-8f56-45dd-a1a9-4198f4103185")
 		)
@@ -11456,6 +12655,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 264.16 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 264.16 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 264.16 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "LM358"
+			(at 264.16 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "872ef11b-0f39-4433-b707-4c1de7affcb8")
 		)
@@ -11500,7 +12743,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "781150fe-52fc-49cf-8217-4231dd02977d")
-		(property "Reference" "C50"
+		(property "Reference" "C46"
 			(at 254.508 143.764 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11564,6 +12807,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 251.46 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 251.46 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 251.46 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A104KA5NNNC"
+			(at 251.46 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "226a9cd3-474d-472a-ba1e-399c4ec4604f")
 		)
@@ -11573,7 +12860,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C50")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -11748,7 +13035,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79b0ac64-b315-48dd-abda-e64258545132")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 208.026 119.888 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11812,6 +13099,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 209.55 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 209.55 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 209.55 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A104KA5NNNC"
+			(at 209.55 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "785639d7-7e6b-4acd-b865-3a4f5f7763d2")
 		)
@@ -11821,7 +13152,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -11839,7 +13170,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7af69617-9f6a-4eaf-9ab8-17bc9ef7707a")
-		(property "Reference" "U18"
+		(property "Reference" "U6"
 			(at 146.4467 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11893,6 +13224,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 160.02 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 160.02 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 160.02 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "AD8314ARMZ-REEL"
+			(at 160.02 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "5e66cf4e-4118-4529-8d15-6a5a0740cd13")
 		)
@@ -11920,7 +13295,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "U18")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -11938,7 +13313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7bb3d84f-2178-4ba4-8f13-7e4e73deda11")
-		(property "Reference" "C43"
+		(property "Reference" "C39"
 			(at 113.03 38.608 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12002,6 +13377,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 113.03 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 113.03 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 113.03 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "TCC0402X7R102K500AT"
+			(at 113.03 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c61d8423-22c5-4e6a-b51e-710c9e90f6fb")
 		)
@@ -12011,7 +13430,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C43")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -12072,6 +13491,50 @@
 			)
 		)
 		(property "Description" "10-6000MHz +20dB Gain Block, SOT-89"
+			(at 127 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 127 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 127 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 127 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "GVA-63+"
 			(at 127 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12428,6 +13891,39 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 78.74 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 78.74 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 78.74 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dff44592-e767-45ab-8190-e0568be31b17")
 		)
@@ -12455,7 +13951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8985991e-df5c-4ec7-828c-baae62936b67")
-		(property "Reference" "C15"
+		(property "Reference" "C13"
 			(at 262.89 42.926 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12519,6 +14015,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 262.89 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 262.89 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 262.89 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "TCC0402X7R102K500AT"
+			(at 262.89 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "143f25ec-eb44-466d-8662-1c595056219b")
 		)
@@ -12528,7 +14068,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C15")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -12545,7 +14085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93d3d2c6-47a8-40e9-9878-510b5a5c081c")
-		(property "Reference" "R25"
+		(property "Reference" "R14"
 			(at 121.666 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12609,6 +14149,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 121.92 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 121.92 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 121.92 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CR0402-FX-10R0GLF"
+			(at 121.92 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e82ce267-4340-4068-8825-f699f0bb345c")
 		)
@@ -12618,7 +14202,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "R25")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -12713,7 +14297,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "981ca8f4-46f2-4dfe-8154-ffe5cc735f44")
-		(property "Reference" "C20"
+		(property "Reference" "C18"
 			(at 96.52 139.446 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12777,6 +14361,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 96.52 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 96.52 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 96.52 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "TCC0402X7R102K500AT"
+			(at 96.52 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3554f57c-7097-4c06-842e-68cd6424de63")
 		)
@@ -12786,7 +14414,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C20")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -12804,7 +14432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "982c4356-abe1-479b-8d3c-e4a8439ee90e")
-		(property "Reference" "C24"
+		(property "Reference" "C22"
 			(at 234.95 38.608 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12868,6 +14496,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 234.95 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 234.95 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 234.95 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "TCC0402X7R102K500AT"
+			(at 234.95 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c16197ac-cbb2-4d10-81c7-488ae4fab19c")
 		)
@@ -12877,7 +14549,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C24")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -12895,7 +14567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a292744e-63f3-49f9-bb6c-d122c8ab489a")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 234.95 53.086 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12959,6 +14631,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 234.95 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 234.95 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 234.95 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "TCC0402X7R102K500AT"
+			(at 234.95 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a7b8bb0c-4259-47d1-b5b4-85af19cd6269")
 		)
@@ -12968,7 +14684,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -13133,6 +14849,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 242.57 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 242.57 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 242.57 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "LM358"
+			(at 242.57 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "cacd9d09-86ea-47a4-88eb-b0ff0b9142e3")
 		)
@@ -13245,6 +15005,39 @@
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 134.62 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 134.62 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 134.62 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 134.62 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13584,6 +15377,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 115.57 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 115.57 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 115.57 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "LM358"
+			(at 115.57 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "872ef11b-0f39-4433-b707-4c1de7affcb9")
 		)
@@ -13708,7 +15545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af0aa70a-d741-4aff-a71f-1c54a7dbd70f")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 266.7 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13774,6 +15611,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 266.7 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 266.7 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 266.7 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "FRC0402J103 TS"
+			(at 266.7 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "743365da-d73d-43e9-a961-e85cd1d0f2dc")
 		)
@@ -13783,7 +15664,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -13800,7 +15681,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afa9505f-cce0-47c7-9fe6-bfd393f107b1")
-		(property "Reference" "C49"
+		(property "Reference" "C45"
 			(at 88.392 37.338 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13864,6 +15745,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 90.17 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 90.17 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 90.17 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "0402B221K500NT"
+			(at 90.17 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "793203c8-f327-4c46-96eb-708276b88fd5")
 		)
@@ -13873,7 +15798,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C49")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -14127,6 +16052,39 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 91.44 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 91.44 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 91.44 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "457f0d8f-7652-48d8-afb3-f32928529563")
 		)
@@ -14313,7 +16271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb6a8d1a-7bc3-40af-917d-748d217313d2")
-		(property "Reference" "R24"
+		(property "Reference" "R23"
 			(at 181.61 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14379,6 +16337,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 179.07 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 179.07 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 179.07 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "FRC0402F91R0TS"
+			(at 179.07 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4459e491-a82f-4a65-aedc-7efddc702b3a")
 		)
@@ -14388,7 +16390,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "R24")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -14406,7 +16408,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bcab0e97-680b-475f-bf0a-bdfe6eb49741")
-		(property "Reference" "R40"
+		(property "Reference" "R24"
 			(at 163.83 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14472,6 +16474,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 161.29 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 161.29 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 161.29 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CRCW04020000Z0EE"
+			(at 161.29 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e3719900-2b3d-477c-ad7a-672c9213ef5c")
 		)
@@ -14481,7 +16527,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "R40")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -14498,7 +16544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd230742-c639-4398-85f3-d9adfd4ea488")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 220.726 119.888 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14562,6 +16608,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 222.25 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 222.25 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 222.25 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CC0402JRNPO9BN681"
+			(at 222.25 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5fc4bfe5-cd68-4e49-ad6b-f2c87bf1479f")
 		)
@@ -14571,7 +16661,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -14588,7 +16678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be280fe4-4ecd-4903-bff8-9f418f15124b")
-		(property "Reference" "R28"
+		(property "Reference" "R27"
 			(at 115.316 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14652,6 +16742,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 115.57 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 115.57 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 115.57 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RT0402BRD07100RL"
+			(at 115.57 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "679185a9-bef5-4cef-84aa-5cfe6b757bc1")
 		)
@@ -14661,7 +16795,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "R28")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -14733,6 +16867,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 59.69 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 59.69 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 59.69 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "MAX7044AKA+T"
+			(at 59.69 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "316e7d01-7029-4470-aa8e-f4d5449cef4e")
 		)
@@ -14777,7 +16955,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c362395d-3f08-4088-ad3f-499a90f61330")
-		(property "Reference" "C48"
+		(property "Reference" "C44"
 			(at 94.996 37.338 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14841,6 +17019,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 96.52 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 96.52 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 96.52 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CC0402JRNPO9BN681"
+			(at 96.52 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6a9381dc-7617-49ef-b5e5-c0995aa9d771")
 		)
@@ -14850,7 +17072,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C48")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -14867,7 +17089,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c473f24e-5cd0-4f89-be43-0f6419b72c3b")
-		(property "Reference" "C35"
+		(property "Reference" "C32"
 			(at 35.814 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14933,6 +17155,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 30.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 30.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 30.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CC0402JRNPO9BN100"
+			(at 30.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b5bf0ebc-fd30-4285-9d01-239c24429a7c")
 		)
@@ -14942,7 +17208,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C35")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -15039,7 +17305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4f60309-83a5-4d29-b39e-f396c00489d5")
-		(property "Reference" "C9"
+		(property "Reference" "C7"
 			(at 74.422 136.144 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15105,6 +17371,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 80.01 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 80.01 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 80.01 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CC0402JRNPO9BN100"
+			(at 80.01 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "481701fc-150e-40fc-bfc5-631cf5bc926d")
 		)
@@ -15114,7 +17424,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C9")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -15209,7 +17519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7f81bd5-3090-4150-b9ec-4254437a1d7d")
-		(property "Reference" "R31"
+		(property "Reference" "R30"
 			(at 74.676 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15273,6 +17583,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 74.93 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 74.93 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 74.93 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RT0402BRD07100RL"
+			(at 74.93 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3f5f4f33-0f45-43fc-aa13-43d70b748c7f")
 		)
@@ -15282,7 +17636,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "R31")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -15537,6 +17891,39 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 204.47 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 204.47 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 204.47 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "30c808c2-0e37-4ae9-8651-6404fa1f3b2e")
 		)
@@ -15698,6 +18085,50 @@
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 165.1 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 165.1 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 165.1 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 165.1 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "FRC0402J103 TS"
+			(at 165.1 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15891,7 +18322,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d67c1c0f-17ff-4a30-a2d8-015e32a4e3c3")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 173.482 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15944,6 +18375,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 173.99 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 173.99 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 173.99 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "H3-TCD-12-222X+"
+			(at 173.99 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "44203200-e3d9-4c2b-a36c-ae9759f1446b")
 		)
@@ -15968,7 +18443,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -16065,7 +18540,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db9d8ec8-3140-405c-8d28-7df2b1878e7c")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 40.132 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16129,6 +18604,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 40.64 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 40.64 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 40.64 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RT0402BRD07100RL"
+			(at 40.64 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "654f841b-5382-4164-8dd9-95d2e5af6128")
 		)
@@ -16138,7 +18657,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -16395,7 +18914,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd6b3d0e-4720-42d9-9fa7-40f739f3e5ca")
-		(property "Reference" "C28"
+		(property "Reference" "C25"
 			(at 138.176 37.338 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16459,6 +18978,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 139.7 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 139.7 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 139.7 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A104KA5NNNC"
+			(at 139.7 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a1f88372-0064-47da-8dd5-0bfafcc2f91b")
 		)
@@ -16468,7 +19031,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C28")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -16485,7 +19048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de0bdffc-d3eb-45c9-8f65-5cf39120e524")
-		(property "Reference" "C46"
+		(property "Reference" "C42"
 			(at 103.632 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16549,6 +19112,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 107.95 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 107.95 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 107.95 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CC0402JRNPO9BN150"
+			(at 107.95 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2c712b3b-9f52-41b3-a96e-7b5a0e4e831c")
 		)
@@ -16558,7 +19165,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C46")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -16653,7 +19260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0cb7574-fc47-4fd9-9dd1-a622b7979017")
-		(property "Reference" "C10"
+		(property "Reference" "C8"
 			(at 74.676 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16719,6 +19326,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 80.01 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 80.01 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 80.01 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CC0402JRNPO9BN100"
+			(at 80.01 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "85fd6058-1370-43b3-a57f-60b1c00efe54")
 		)
@@ -16728,7 +19379,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -16745,7 +19396,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6fd3374-dba5-453d-b342-9973cd1d8d6b")
-		(property "Reference" "C40"
+		(property "Reference" "C36"
 			(at 60.706 35.306 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16809,6 +19460,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 63.5 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 63.5 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 63.5 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A104KA5NNNC"
+			(at 63.5 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e657f992-fccc-41d7-a356-618a65c92aeb")
 		)
@@ -16818,7 +19513,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C40")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -16989,6 +19684,39 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 30.48 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 30.48 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 30.48 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7ed7e5c2-c2d6-48a1-aa40-c6804fd49094")
 		)
@@ -17085,6 +19813,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 157.48 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 157.48 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 157.48 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CR0402-FX-10R0GLF"
+			(at 157.48 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "93cb3079-4db7-4994-8f82-138283711774")
 		)
@@ -17111,7 +19883,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed9004bc-8a71-4fc4-9b0d-023008017c5a")
-		(property "Reference" "C33"
+		(property "Reference" "C30"
 			(at 155.448 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17175,6 +19947,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 152.4 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 152.4 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 152.4 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CC0402JRNPO9BN681"
+			(at 152.4 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "60bca67a-f7da-47f1-a59b-bf9cae2d4997")
 		)
@@ -17184,7 +20000,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C33")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -17201,7 +20017,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f01ff6a2-c2f8-4123-97f1-9412328a615d")
-		(property "Reference" "C44"
+		(property "Reference" "C40"
 			(at 80.772 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17265,6 +20081,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 83.82 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 83.82 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 83.82 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CC0402JRNPO9BN120"
+			(at 83.82 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9ef372a9-1426-48f0-a3b1-2f0da6bb9f9a")
 		)
@@ -17274,7 +20134,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C44")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -17291,7 +20151,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0d7a9d8-2616-41bf-bf99-06c0f60fa776")
-		(property "Reference" "C42"
+		(property "Reference" "C38"
 			(at 276.098 143.764 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17355,6 +20215,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 273.05 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 273.05 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 273.05 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A104KA5NNNC"
+			(at 273.05 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e611e16d-d922-4052-8ffa-fd5ca55e15a1")
 		)
@@ -17364,7 +20268,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C42")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -17462,7 +20366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1d29c1b-5d2a-4300-9976-a493391fdeff")
-		(property "Reference" "R29"
+		(property "Reference" "R28"
 			(at 128.27 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17526,6 +20430,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 128.27 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 128.27 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 128.27 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RT0402BRD07100RL"
+			(at 128.27 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7d5ff5ce-5f53-46d3-a4d6-9556e0ebc39c")
 		)
@@ -17535,7 +20483,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "R29")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -17552,7 +20500,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6b43a14-46d7-4463-b465-9b82cdee09b5")
-		(property "Reference" "C19"
+		(property "Reference" "C17"
 			(at 195.58 139.192 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17616,6 +20564,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 195.58 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 195.58 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 195.58 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "TCC0402X7R102K500AT"
+			(at 195.58 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b863a4bb-59e6-4f00-80eb-89735e762769")
 		)
@@ -17625,7 +20617,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C19")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -17698,6 +20690,50 @@
 			)
 		)
 		(property "KiLib_Generator" "package/gullwing"
+			(at 74.93 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 74.93 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 74.93 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 74.93 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "LM358"
 			(at 74.93 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -17819,6 +20855,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 55.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 55.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 55.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "MICRF220AYQS-TR"
+			(at 55.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "d86bfd0f-febf-41bf-97c8-c7d4d056b15d")
 		)
@@ -17887,7 +20967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbdf0870-ee17-40b9-ac30-a5e6e06a3d3a")
-		(property "Reference" "C45"
+		(property "Reference" "C41"
 			(at 88.646 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17951,6 +21031,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 92.71 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 92.71 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 92.71 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CC0402JRNPO9BN180"
+			(at 92.71 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1b12f173-83a1-4ccc-aca5-fa0f997bb1fc")
 		)
@@ -17960,7 +21084,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d/d59aad70-30f5-48a2-8092-bdb11e43ed29"
-					(reference "C45")
+					(reference "C41")
 					(unit 1)
 				)
 			)

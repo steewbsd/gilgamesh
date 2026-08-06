@@ -277,6 +277,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -4447,7 +4587,7 @@
 	)
 	(text "Joystick"
 		(exclude_from_sim no)
-		(at 79.756 145.034 0)
+		(at 86.106 146.304 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4467,7 +4607,7 @@
 	)
 	(text_box "0.768V*\n(1+(10/3.3))\n= 3V"
 		(exclude_from_sim no)
-		(at 81.28 87.2124 0)
+		(at 87.63 88.4824 0)
 		(size 13.97 8.0376)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -4486,13 +4626,13 @@
 		(uuid "d722bca6-705d-499c-9a7e-84e0abde4dd9")
 	)
 	(junction
-		(at 58.42 113.03)
+		(at 64.77 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a250a5a-8c5e-4424-9c26-097a90a97a71")
 	)
 	(junction
-		(at 99.06 77.47)
+		(at 105.41 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1142c80b-1fee-41ab-a5dd-0fa1401d696a")
@@ -4504,7 +4644,7 @@
 		(uuid "13e25f95-0acf-4c73-b9ea-7dcc1844543b")
 	)
 	(junction
-		(at 24.13 77.47)
+		(at 30.48 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "276cbff1-a3c0-4e7b-9509-dbfc8e3b79f3")
@@ -4516,7 +4656,7 @@
 		(uuid "282a0f80-4a12-4177-aedf-493a35d47285")
 	)
 	(junction
-		(at 21.59 110.49)
+		(at 27.94 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a9a87e9-787f-4c5b-865d-935bac984eb2")
@@ -4528,13 +4668,13 @@
 		(uuid "37939cb6-e6a3-4f09-9071-8a67f017303d")
 	)
 	(junction
-		(at 99.06 82.55)
+		(at 105.41 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e9d264d-4ca9-4608-b64b-039726ab5f61")
 	)
 	(junction
-		(at 78.74 82.55)
+		(at 85.09 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f9d93a1-5114-49ad-aad4-79580c6700f2")
@@ -4552,7 +4692,19 @@
 		(uuid "4ac0e680-b0f9-482b-8e5f-094a5cb0bdb9")
 	)
 	(junction
-		(at 88.9 123.19)
+		(at 30.48 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4de9be15-f9f9-402d-baa7-132721e6eacc")
+	)
+	(junction
+		(at 27.94 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "535278dd-e8d6-45c9-add0-6a43ce9a7609")
+	)
+	(junction
+		(at 95.25 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55ef5567-ffce-4a97-9d50-ab789d5ac833")
@@ -4564,7 +4716,7 @@
 		(uuid "5d980692-bf39-4dfa-9f39-980c40d6b2aa")
 	)
 	(junction
-		(at 53.34 77.47)
+		(at 59.69 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "650413fe-e2d3-4c4f-b260-c7e98ed10684")
@@ -4582,7 +4734,7 @@
 		(uuid "6bdd9b99-1d03-475f-9d19-a508cc85a8c7")
 	)
 	(junction
-		(at 21.59 143.51)
+		(at 27.94 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "729f7620-5947-4113-9b69-73a30b1bcdce")
@@ -4612,25 +4764,25 @@
 		(uuid "895b75d5-481c-491b-8333-4e148e6d1ec8")
 	)
 	(junction
-		(at 88.9 77.47)
+		(at 95.25 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cf379e6-2c7c-41bc-b00b-126439c22386")
 	)
 	(junction
-		(at 38.1 77.47)
+		(at 44.45 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d5389c1-fdc7-4a3a-97d5-d2c59b96a49f")
 	)
 	(junction
-		(at 64.77 120.65)
+		(at 71.12 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92a994b0-5115-4312-bee6-c41376594385")
 	)
 	(junction
-		(at 21.59 125.73)
+		(at 27.94 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "967a9235-a489-490a-8573-6a14630b6b78")
@@ -4660,7 +4812,7 @@
 		(uuid "cd24f5b0-7fdc-4ee7-a232-22327bbdb42e")
 	)
 	(junction
-		(at 105.41 77.47)
+		(at 111.76 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf0895ba-ac41-4392-ab1b-2801ddace8aa")
@@ -4678,13 +4830,13 @@
 		(uuid "d2ba065a-a003-4aef-940b-5f678389d9cb")
 	)
 	(junction
-		(at 67.31 137.16)
+		(at 73.66 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d95f8cfa-7bf2-480f-8153-956c04ed5592")
 	)
 	(junction
-		(at 44.45 77.47)
+		(at 50.8 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1363827-b8ab-4cd7-abbe-c4e4def72031")
@@ -4702,7 +4854,7 @@
 		(uuid "f6e8fb47-c61d-4927-9199-7a7f24b37b2c")
 	)
 	(junction
-		(at 31.75 77.47)
+		(at 38.1 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8b93364-b48c-4b54-810b-600c967ceb78")
@@ -4763,7 +4915,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 146.05) (xy 67.31 137.16)
+			(xy 73.66 147.32) (xy 73.66 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4773,7 +4925,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 120.65) (xy 72.39 120.65)
+			(xy 71.12 121.92) (xy 78.74 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4783,7 +4935,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 82.55) (xy 99.06 86.36)
+			(xy 105.41 83.82) (xy 105.41 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4793,7 +4945,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 105.41) (xy 26.67 106.68)
+			(xy 33.02 106.68) (xy 33.02 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4803,7 +4955,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 77.47) (xy 24.13 73.66)
+			(xy 30.48 78.74) (xy 30.48 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4813,7 +4965,17 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 77.47) (xy 44.45 77.47)
+			(xy 21.59 93.98) (xy 30.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07010be5-1050-433f-8aeb-75939bbbf652")
+	)
+	(wire
+		(pts
+			(xy 44.45 78.74) (xy 50.8 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4833,7 +4995,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 77.47) (xy 90.17 77.47)
+			(xy 95.25 78.74) (xy 96.52 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4863,7 +5025,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 139.7) (xy 48.26 146.05)
+			(xy 54.61 140.97) (xy 54.61 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4873,7 +5035,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 77.47) (xy 105.41 77.47)
+			(xy 27.94 137.16) (xy 27.94 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "131c4847-205b-47f8-b1f2-dd496babf21f")
+	)
+	(wire
+		(pts
+			(xy 105.41 78.74) (xy 111.76 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4903,7 +5075,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 120.65) (xy 58.42 120.65)
+			(xy 59.69 121.92) (xy 64.77 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4933,7 +5105,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 77.47) (xy 31.75 77.47)
+			(xy 30.48 78.74) (xy 38.1 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4963,7 +5135,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 132.08) (xy 88.9 123.19)
+			(xy 95.25 133.35) (xy 95.25 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4973,7 +5145,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 140.97) (xy 21.59 143.51)
+			(xy 27.94 142.24) (xy 27.94 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4983,7 +5155,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 125.73) (xy 72.39 125.73)
+			(xy 76.2 127) (xy 78.74 127)
 		)
 		(stroke
 			(width 0)
@@ -5003,7 +5175,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 146.05) (xy 67.31 146.05)
+			(xy 64.77 147.32) (xy 73.66 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5043,7 +5215,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 80.01) (xy 44.45 77.47)
+			(xy 50.8 81.28) (xy 50.8 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5093,7 +5265,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 77.47) (xy 99.06 82.55)
+			(xy 105.41 78.74) (xy 105.41 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5113,7 +5285,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 77.47) (xy 38.1 77.47)
+			(xy 38.1 78.74) (xy 44.45 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5203,7 +5375,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 69.85) (xy 17.78 77.47)
+			(xy 24.13 71.12) (xy 24.13 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5213,7 +5385,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 110.49) (xy 21.59 114.3)
+			(xy 27.94 111.76) (xy 27.94 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5233,7 +5405,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 80.01) (xy 53.34 77.47)
+			(xy 59.69 81.28) (xy 59.69 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5273,7 +5445,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 88.9) (xy 58.42 88.9)
+			(xy 59.69 90.17) (xy 64.77 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5303,7 +5475,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 113.03) (xy 64.77 113.03)
+			(xy 64.77 114.3) (xy 71.12 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5323,7 +5495,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 137.16) (xy 77.47 137.16)
+			(xy 73.66 138.43) (xy 83.82 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5343,7 +5515,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 123.19) (xy 87.63 123.19)
+			(xy 95.25 124.46) (xy 93.98 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5363,7 +5535,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 80.01) (xy 88.9 77.47)
+			(xy 95.25 81.28) (xy 95.25 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5383,7 +5555,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 143.51) (xy 25.4 143.51)
+			(xy 27.94 144.78) (xy 31.75 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5473,7 +5645,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 132.08) (xy 88.9 132.08)
+			(xy 86.36 133.35) (xy 95.25 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5533,7 +5705,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 77.47) (xy 105.41 86.36)
+			(xy 111.76 78.74) (xy 111.76 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5603,7 +5775,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 120.65) (xy 45.72 120.65)
+			(xy 44.45 121.92) (xy 52.07 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5613,7 +5785,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 121.92) (xy 64.77 120.65)
+			(xy 71.12 123.19) (xy 71.12 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5733,7 +5905,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 77.47) (xy 24.13 77.47)
+			(xy 24.13 78.74) (xy 30.48 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5743,7 +5915,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 125.73) (xy 69.85 132.08)
+			(xy 76.2 127) (xy 76.2 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5763,7 +5935,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 134.62) (xy 39.37 125.73)
+			(xy 45.72 135.89) (xy 45.72 127)
 		)
 		(stroke
 			(width 0)
@@ -5793,7 +5965,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 80.01) (xy 88.9 80.01)
+			(xy 93.98 81.28) (xy 95.25 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5803,7 +5975,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 82.55) (xy 99.06 82.55)
+			(xy 104.14 83.82) (xy 105.41 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5813,7 +5985,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 125.73) (xy 39.37 125.73)
+			(xy 27.94 127) (xy 45.72 127)
 		)
 		(stroke
 			(width 0)
@@ -5823,7 +5995,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 115.57) (xy 38.1 120.65)
+			(xy 44.45 116.84) (xy 44.45 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5873,7 +6045,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 82.55) (xy 90.17 82.55)
+			(xy 85.09 83.82) (xy 96.52 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5893,7 +6065,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 105.41) (xy 21.59 110.49)
+			(xy 27.94 106.68) (xy 27.94 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5903,7 +6075,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 77.47) (xy 88.9 77.47)
+			(xy 85.09 78.74) (xy 95.25 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5913,7 +6085,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 77.47) (xy 58.42 77.47)
+			(xy 59.69 78.74) (xy 64.77 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6073,6 +6245,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 93.98) (xy 30.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9722af90-fbd7-4729-a704-85608125997a")
+	)
+	(wire
+		(pts
 			(xy 255.27 154.94) (xy 250.19 154.94)
 		)
 		(stroke
@@ -6093,7 +6275,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 120.65) (xy 58.42 113.03)
+			(xy 64.77 121.92) (xy 64.77 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6103,7 +6285,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 88.9) (xy 53.34 87.63)
+			(xy 59.69 90.17) (xy 59.69 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6133,6 +6315,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 137.16) (xy 27.94 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d18cd66-d79c-40c9-b652-a262a37d8d4f")
+	)
+	(wire
+		(pts
 			(xy 151.13 30.48) (xy 163.83 30.48)
 		)
 		(stroke
@@ -6143,7 +6335,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 146.05) (xy 50.8 146.05)
+			(xy 54.61 147.32) (xy 57.15 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6163,7 +6355,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 80.01) (xy 38.1 77.47)
+			(xy 44.45 81.28) (xy 44.45 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6213,7 +6405,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 82.55) (xy 78.74 86.36)
+			(xy 85.09 83.82) (xy 85.09 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6233,7 +6425,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 123.19) (xy 99.06 123.19)
+			(xy 95.25 124.46) (xy 105.41 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6253,7 +6445,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 125.73) (xy 21.59 127)
+			(xy 27.94 127) (xy 27.94 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6293,7 +6485,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 77.47) (xy 53.34 77.47)
+			(xy 50.8 78.74) (xy 59.69 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6373,7 +6565,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 139.7) (xy 50.8 139.7)
+			(xy 54.61 140.97) (xy 57.15 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6383,7 +6575,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 132.08) (xy 72.39 132.08)
+			(xy 76.2 133.35) (xy 78.74 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6393,7 +6585,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 77.47) (xy 97.79 77.47)
+			(xy 105.41 78.74) (xy 104.14 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6443,7 +6635,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 113.03) (xy 55.88 113.03)
+			(xy 64.77 114.3) (xy 62.23 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6463,7 +6655,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 121.92) (xy 21.59 125.73)
+			(xy 27.94 123.19) (xy 27.94 127)
 		)
 		(stroke
 			(width 0)
@@ -6473,7 +6665,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 137.16) (xy 66.04 137.16)
+			(xy 73.66 138.43) (xy 72.39 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6513,7 +6705,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 80.01) (xy 80.01 80.01)
+			(xy 85.09 81.28) (xy 86.36 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6523,7 +6715,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 77.47) (xy 24.13 95.25)
+			(xy 30.48 78.74) (xy 30.48 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6583,7 +6775,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 143.51) (xy 34.29 143.51)
+			(xy 39.37 144.78) (xy 40.64 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6673,7 +6865,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 80.01) (xy 31.75 77.47)
+			(xy 38.1 81.28) (xy 38.1 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6703,7 +6895,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 88.9) (xy 58.42 82.55)
+			(xy 64.77 90.17) (xy 64.77 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6803,7 +6995,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 115.57) (xy 38.1 115.57)
+			(xy 46.99 116.84) (xy 44.45 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6853,7 +7045,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 110.49) (xy 40.64 110.49)
+			(xy 27.94 111.76) (xy 46.99 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6883,7 +7075,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 134.62) (xy 39.37 134.62)
+			(xy 57.15 135.89) (xy 45.72 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6913,7 +7105,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 74.93) (xy 105.41 77.47)
+			(xy 111.76 76.2) (xy 111.76 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7022,7 +7214,7 @@
 		(uuid "30405a10-363b-450f-b874-08c2fdcb62f0")
 	)
 	(label "VBAT2"
-		(at 24.13 73.66 90)
+		(at 30.48 74.93 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7132,7 +7324,7 @@
 		(uuid "5a6b9fa2-653c-446e-84f5-323487115f87")
 	)
 	(label "VBAT1"
-		(at 25.4 125.73 0)
+		(at 31.75 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7252,7 +7444,7 @@
 		(uuid "8aafe6ef-ddbf-403b-8297-02ecdd4c9e7d")
 	)
 	(label "BAT1_SAMPLE"
-		(at 77.47 137.16 0)
+		(at 83.82 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7362,7 +7554,7 @@
 		(uuid "ab1e3b93-9c64-4f8a-a3cc-78505ced2168")
 	)
 	(label "BAT2_SAMPLE"
-		(at 99.06 123.19 0)
+		(at 105.41 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7482,7 +7674,7 @@
 		(uuid "e9ae317b-54c4-4593-b10a-f524058bab67")
 	)
 	(label "VBAT2"
-		(at 21.59 140.97 0)
+		(at 27.94 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7725,7 +7917,40 @@
 				)
 			)
 		)
-		(property "PN" " TC-6610-6*6*8-300g"
+		(property "PN" "TS-1088-AR02016"
+			(at 165.1 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 165.1 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 165.1 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 165.1 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7753,7 +7978,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 120.65 90)
+		(at 55.88 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7762,8 +7987,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05d17594-ca97-47cd-b96a-06e0962b8600")
-		(property "Reference" "R34"
-			(at 50.8 120.65 90)
+		(property "Reference" "R33"
+			(at 57.15 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7774,7 +7999,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 51.816 118.11 90)
+			(at 58.166 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7785,7 +8010,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 49.53 122.428 90)
+			(at 55.88 123.698 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7796,7 +8021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 120.65 0)
+			(at 55.88 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7807,7 +8032,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 120.65 0)
+			(at 55.88 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7818,7 +8043,51 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 49.53 120.65 0)
+			(at 55.88 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 55.88 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 55.88 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 55.88 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CRCW04020000Z0EE"
+			(at 55.88 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7837,7 +8106,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R34")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -7855,7 +8124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "097179f5-c775-46c6-9c6a-776fff734197")
-		(property "Reference" "C21"
+		(property "Reference" "C19"
 			(at 271.272 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7921,6 +8190,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 273.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 273.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 273.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CC0402KRX7R8BB101"
+			(at 273.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "47e27ace-6071-4bf0-87da-ccfc5a2dd2a4")
 		)
@@ -7930,7 +8243,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C21")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -8002,7 +8315,40 @@
 				)
 			)
 		)
-		(property "PN" " TC-6610-6*6*8-300g"
+		(property "PN" "TS-1088-AR02016"
+			(at 151.13 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 151.13 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 151.13 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 151.13 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8030,7 +8376,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 93.98 0)
+		(at 105.41 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8041,7 +8387,7 @@
 		(fields_autoplaced yes)
 		(uuid "0dd670b5-fe93-4ff8-9f56-457a5765f464")
 		(property "Reference" "#PWR0119"
-			(at 99.06 100.33 0)
+			(at 105.41 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8052,7 +8398,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 99.06 0)
+			(at 105.41 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8063,7 +8409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 93.98 0)
+			(at 105.41 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8074,7 +8420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 93.98 0)
+			(at 105.41 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8085,7 +8431,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 93.98 0)
+			(at 105.41 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8188,7 +8534,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 64.77 125.73 180)
+		(at 71.12 127 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8197,8 +8543,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ed83f6b-491f-45ba-b8e5-83dd0f263f62")
-		(property "Reference" "R32"
-			(at 64.77 124.46 90)
+		(property "Reference" "R31"
+			(at 71.12 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8209,7 +8555,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 62.23 123.444 90)
+			(at 68.58 124.714 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8220,7 +8566,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 66.548 125.73 90)
+			(at 72.898 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8231,7 +8577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 125.73 0)
+			(at 71.12 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8242,7 +8588,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 64.77 125.73 0)
+			(at 71.12 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8253,7 +8599,51 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 64.77 125.73 0)
+			(at 71.12 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 71.12 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 71.12 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 71.12 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "FRC0402J103 TS"
+			(at 71.12 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8272,7 +8662,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R32")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -8289,7 +8679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f3248ad-b841-404a-a3dc-9dd9cdf385b9")
-		(property "Reference" "C51"
+		(property "Reference" "C47"
 			(at 85.852 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8355,6 +8745,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 88.9 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 88.9 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 88.9 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A104KA5NNNC"
+			(at 88.9 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1263f5a1-a0a2-451e-82d6-8e927a48ddd5")
 		)
@@ -8364,7 +8798,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C51")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -8606,6 +9040,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 181.61 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 181.61 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 181.61 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CRCW040250K0FKED"
+			(at 181.61 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c23d0f32-02bf-449c-8e92-75918d980abe")
 		)
@@ -8780,8 +9258,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 44.45 87.63 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 16.51 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8789,10 +9267,19 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1646395a-ced6-4797-a69a-bc9a6fbf6573")
-		(property "Reference" "#PWR0118"
-			(at 44.45 93.98 0)
+		(uuid "156746f8-9d75-4c98-a9f5-d1fa84102899")
+		(property "Reference" "J7"
+			(at 16.51 91.948 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 17.145 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8802,19 +9289,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 44.45 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 87.63 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 16.51 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8825,7 +9301,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 87.63 0)
+			(at 16.51 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 16.51 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb6e2617-f727-477d-90f8-dee34f5b228d")
+		)
+		(instances
+			(project "RemoteController"
+				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1646395a-ced6-4797-a69a-bc9a6fbf6573")
+		(property "Reference" "#PWR0118"
+			(at 50.8 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8836,7 +9391,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 87.63 0)
+			(at 50.8 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8870,7 +9425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "187bc30b-5579-484b-9563-87aa55b70ee9")
-		(property "Reference" "C18"
+		(property "Reference" "C16"
 			(at 188.976 25.146 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8934,6 +9489,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 191.77 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 191.77 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 191.77 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CC0402JRNPO9BN200"
+			(at 191.77 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2ac90c6-f53b-4d74-ac50-b4b49f16a4fc")
 		)
@@ -8943,7 +9542,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C18")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -8951,7 +9550,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Switching:TPS562200")
-		(at 68.58 80.01 0)
+		(at 74.93 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8962,7 +9561,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a735e4a-65b5-4281-ae8b-b4cebef759ff")
 		(property "Reference" "U16"
-			(at 68.58 69.85 0)
+			(at 74.93 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8972,7 +9571,7 @@
 			)
 		)
 		(property "Value" "TPS562200"
-			(at 68.58 72.39 0)
+			(at 74.93 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8982,7 +9581,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 69.85 86.36 0)
+			(at 76.2 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8994,7 +9593,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps563200.pdf"
-			(at 68.58 80.01 0)
+			(at 74.93 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9005,7 +9604,7 @@
 			)
 		)
 		(property "Description" "2A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6"
-			(at 68.58 80.01 0)
+			(at 74.93 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9016,7 +9615,7 @@
 			)
 		)
 		(property "PN" "TPS562208DDCR"
-			(at 68.58 80.01 0)
+			(at 74.93 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9027,7 +9626,40 @@
 			)
 		)
 		(property "KiLib_Generator" "package/gullwing"
-			(at 68.58 80.01 0)
+			(at 74.93 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 74.93 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 74.93 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 74.93 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9133,6 +9765,50 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 279.4 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "2450AT18A100E"
+			(at 279.4 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 279.4 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 279.4 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 279.4 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9319,7 +9995,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 93.98 82.55 90)
+		(at 100.33 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9328,8 +10004,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "226e3546-5cdd-44bf-98f3-f4dd0c5752d9")
-		(property "Reference" "R36"
-			(at 93.98 82.55 90)
+		(property "Reference" "R35"
+			(at 100.33 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9339,7 +10015,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 93.98 84.836 90)
+			(at 100.33 86.106 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9349,7 +10025,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 93.98 84.328 90)
+			(at 100.33 85.598 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9360,7 +10036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 82.55 0)
+			(at 100.33 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9371,7 +10047,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 93.98 82.55 0)
+			(at 100.33 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9382,7 +10058,51 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 93.98 82.55 0)
+			(at 100.33 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 100.33 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 100.33 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 100.33 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "FRC0402J103 TS"
+			(at 100.33 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9401,7 +10121,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R36")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -9409,7 +10129,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 87.63 0)
+		(at 44.45 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9420,7 +10140,7 @@
 		(fields_autoplaced yes)
 		(uuid "2306f214-6a89-44d2-9180-287fe8369585")
 		(property "Reference" "#PWR0117"
-			(at 38.1 93.98 0)
+			(at 44.45 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9431,7 +10151,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 92.71 0)
+			(at 44.45 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9442,7 +10162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 87.63 0)
+			(at 44.45 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9453,7 +10173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 87.63 0)
+			(at 44.45 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9464,7 +10184,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 87.63 0)
+			(at 44.45 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9651,7 +10371,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9724,6 +10444,39 @@
 			)
 		)
 		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 57.15 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 57.15 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 57.15 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 57.15 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -9836,7 +10589,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 21.59 134.62 0)
+		(at 27.94 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9847,7 +10600,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b68b869-d5d0-4542-b393-8d27b4e902a9")
 		(property "Reference" "#PWR0122"
-			(at 21.59 140.97 0)
+			(at 27.94 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9858,7 +10611,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 21.59 139.7 0)
+			(at 27.94 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9869,7 +10622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 134.62 0)
+			(at 27.94 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9880,7 +10633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 134.62 0)
+			(at 27.94 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9891,7 +10644,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 134.62 0)
+			(at 27.94 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9978,6 +10731,50 @@
 			)
 		)
 		(property "KiLib_Generator" "package/gullwing"
+			(at 148.59 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 148.59 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 148.59 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 148.59 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "LM358"
 			(at 148.59 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10087,7 +10884,40 @@
 				)
 			)
 		)
-		(property "PN" " TC-6610-6*6*8-300g"
+		(property "PN" "TS-1088-AR02016"
+			(at 143.51 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 143.51 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 143.51 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 143.51 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10125,7 +10955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e4dcde4-8b0c-470d-ad63-b5f5d621a124")
-		(property "Reference" "C25"
+		(property "Reference" "C23"
 			(at 262.89 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10191,6 +11021,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 259.08 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 259.08 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 259.08 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CC0402BRNPO9BN1R0"
+			(at 259.08 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1e4ec66a-632e-4a70-a88f-44a14bf43960")
 		)
@@ -10200,7 +11074,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C25")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -10376,7 +11250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "330d6fb5-b74c-4b45-8025-25d26a48eff4")
-		(property "Reference" "R38"
+		(property "Reference" "R37"
 			(at 189.23 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10442,6 +11316,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 189.23 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 189.23 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 189.23 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "FRC0402F5101TS"
+			(at 189.23 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9993aee1-ad20-4173-b9f7-9730035caf09")
 		)
@@ -10451,7 +11369,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R38")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -10547,7 +11465,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35262f62-1fed-4cb0-b468-a9dc0269996c")
-		(property "Reference" "C17"
+		(property "Reference" "C15"
 			(at 266.954 73.406 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10611,6 +11529,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 270.51 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 270.51 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 270.51 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CC0402JRNPO9BN200"
+			(at 270.51 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8cff9ae7-f190-4f32-a932-fc6a70d5af55")
 		)
@@ -10620,7 +11582,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C17")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -10797,7 +11759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e893631-4570-44f4-8675-89c8cf0c7b20")
-		(property "Reference" "C26"
+		(property "Reference" "C24"
 			(at 273.05 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10863,6 +11825,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 269.24 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 269.24 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 269.24 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "GJM1555C1H1R2WB01D"
+			(at 269.24 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6bf6a0c0-edb3-4d4c-a79d-db400a27353d")
 		)
@@ -10872,7 +11878,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C26")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -10880,7 +11886,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 38.1 83.82 0)
+		(at 44.45 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10889,8 +11895,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42e9a049-3ec8-46fe-9555-badb6f96bbc6")
-		(property "Reference" "C57"
-			(at 38.608 79.248 0)
+		(property "Reference" "C53"
+			(at 44.958 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10901,7 +11907,7 @@
 			)
 		)
 		(property "Value" "10U"
-			(at 38.608 81.28 0)
+			(at 44.958 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10912,7 +11918,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 39.0652 87.63 0)
+			(at 45.4152 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10923,7 +11929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 83.82 0)
+			(at 44.45 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10934,7 +11940,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 38.1 83.82 0)
+			(at 44.45 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10945,7 +11951,51 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 38.1 83.82 0)
+			(at 44.45 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 44.45 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 44.45 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 44.45 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A106MQ5NUNC"
+			(at 44.45 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10964,7 +12014,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C57")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -10981,7 +12031,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45402403-e4d4-4a70-b17d-8adec3f3ec8d")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 187.96 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11047,6 +12097,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 189.23 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 189.23 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 189.23 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RT0402BRD071KL"
+			(at 189.23 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9f2a8a27-056b-4483-813b-56a8b127f279")
 		)
@@ -11056,7 +12150,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11231,7 +12325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c8b3a1b-2b78-46c0-86de-9178924981a5")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 177.8 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11297,6 +12391,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 177.8 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 177.8 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 177.8 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CRCW040250K0FKED"
+			(at 177.8 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "93ebfa89-a859-4f1b-ae00-a34bf2f98a92")
 		)
@@ -11306,7 +12444,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -11323,7 +12461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d80c73c-0c2d-4a51-8e73-8ca189b3709d")
-		(property "Reference" "R22"
+		(property "Reference" "R21"
 			(at 260.35 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11389,6 +12527,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 259.08 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 259.08 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 259.08 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CRCW040250K0FKED"
+			(at 259.08 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dbf3dc07-4173-4991-ac97-ab7290f052c7")
 		)
@@ -11398,7 +12580,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R22")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -11480,6 +12662,50 @@
 				)
 			)
 		)
+		(property "PN" "CS0603-2N2J-S"
+			(at 273.05 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 273.05 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 273.05 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 273.05 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "65fe73f9-75af-4791-b831-62b2db2328cb")
 		)
@@ -11497,7 +12723,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 24.13 151.13 0)
+		(at 30.48 152.4 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11508,7 +12734,7 @@
 		(fields_autoplaced yes)
 		(uuid "4da5e0f7-dff7-4ca4-b95b-3c5083f681ce")
 		(property "Reference" "U10"
-			(at 22.86 149.8599 0)
+			(at 29.21 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11519,7 +12745,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 22.86 152.3999 0)
+			(at 29.21 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11530,7 +12756,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 24.13 151.13 0)
+			(at 30.48 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11541,7 +12767,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 24.13 151.13 0)
+			(at 30.48 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11552,7 +12778,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 24.13 151.13 0)
+			(at 30.48 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11563,7 +12789,51 @@
 			)
 		)
 		(property "KiLib_Generator" "package/gullwing"
-			(at 24.13 151.13 0)
+			(at 30.48 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 30.48 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 30.48 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 30.48 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "LM358"
+			(at 30.48 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11608,7 +12878,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 21.59 119.38 0)
+		(at 27.94 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11619,7 +12889,7 @@
 		(fields_autoplaced yes)
 		(uuid "51f763d7-355c-4878-8249-24cad1bc6ae8")
 		(property "Reference" "BT1"
-			(at 25.4 116.2684 0)
+			(at 31.75 117.5384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11630,7 +12900,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 25.4 118.8084 0)
+			(at 31.75 120.0784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11641,7 +12911,7 @@
 			)
 		)
 		(property "Footprint" "steew:BH-AAA-B5BA021"
-			(at 21.59 117.856 90)
+			(at 27.94 119.126 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11652,7 +12922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 117.856 90)
+			(at 27.94 119.126 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11662,8 +12932,8 @@
 				)
 			)
 		)
-		(property "Description" "Single-cell battery"
-			(at 21.59 119.38 0)
+		(property "Description" ""
+			(at 27.94 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11673,8 +12943,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "V"
-			(at 21.59 119.38 0)
+		(property "PN" "BH-AAA-B5BA021"
+			(at 27.94 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11684,8 +12954,8 @@
 				)
 			)
 		)
-		(property "Sim.Type" "DC"
-			(at 21.59 119.38 0)
+		(property "Sim.Device" ""
+			(at 27.94 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11695,8 +12965,19 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 21.59 119.38 0)
+		(property "Sim.Pins" ""
+			(at 27.94 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 27.94 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11803,7 +13084,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 146.05 90)
+		(at 60.96 147.32 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11812,8 +13093,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55bdebbf-1e22-4eb7-9ab4-61cee3d3ab5e")
-		(property "Reference" "R27"
-			(at 55.88 146.05 90)
+		(property "Reference" "R26"
+			(at 62.23 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11824,7 +13105,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 56.896 143.51 90)
+			(at 63.246 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11835,7 +13116,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 54.61 147.828 90)
+			(at 60.96 149.098 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11846,7 +13127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 146.05 0)
+			(at 60.96 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11857,7 +13138,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 146.05 0)
+			(at 60.96 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11868,7 +13149,51 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 54.61 146.05 0)
+			(at 60.96 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 60.96 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 60.96 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 60.96 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CRCW04020000Z0EE"
+			(at 60.96 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11887,7 +13212,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R27")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -11959,7 +13284,40 @@
 				)
 			)
 		)
-		(property "PN" " TC-6610-6*6*8-300g"
+		(property "PN" "TS-1088-AR02016"
+			(at 157.48 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 157.48 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 157.48 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 157.48 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12053,6 +13411,50 @@
 			)
 		)
 		(property "KiLib_Generator" "package/no_lead"
+			(at 231.14 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 231.14 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 231.14 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 231.14 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "NRF52810-QFAA-T"
 			(at 231.14 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12231,7 +13633,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cf2cbe3-4ecb-4810-b5e2-8c65744b47b9")
-		(property "Reference" "C13"
+		(property "Reference" "C11"
 			(at 256.54 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12297,6 +13699,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 257.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 257.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 257.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A104KA5NNNC"
+			(at 257.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3c24f5f2-7ac8-4a8c-af0f-d5d9cdc5e9f6")
 		)
@@ -12306,7 +13752,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C13")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -12314,7 +13760,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 87.63 0)
+		(at 38.1 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12325,7 +13771,7 @@
 		(fields_autoplaced yes)
 		(uuid "5da133b5-7507-4da4-b6b9-f31888503146")
 		(property "Reference" "#PWR0116"
-			(at 31.75 93.98 0)
+			(at 38.1 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12336,7 +13782,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 92.71 0)
+			(at 38.1 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12347,7 +13793,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 87.63 0)
+			(at 38.1 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12358,7 +13804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 87.63 0)
+			(at 38.1 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12369,7 +13815,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 87.63 0)
+			(at 38.1 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12469,6 +13915,39 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 21.59 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 21.59 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 21.59 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
@@ -12480,7 +13959,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 29.21 143.51 90)
+		(at 35.56 144.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12489,8 +13968,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62c6d27a-1724-4fd0-b54f-336238c4c519")
-		(property "Reference" "C37"
-			(at 32.512 141.224 90)
+		(property "Reference" "C34"
+			(at 38.862 142.494 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12500,7 +13979,7 @@
 			)
 		)
 		(property "Value" "100N"
-			(at 33.02 146.558 90)
+			(at 39.37 147.828 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12510,7 +13989,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 33.02 142.5448 0)
+			(at 39.37 143.8148 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12521,7 +14000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 143.51 0)
+			(at 35.56 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12532,7 +14011,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 29.21 143.51 0)
+			(at 35.56 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12543,7 +14022,51 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 29.21 143.51 0)
+			(at 35.56 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 35.56 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 35.56 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 35.56 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A104KA5NNNC"
+			(at 35.56 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12562,7 +14085,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C37")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -12570,7 +14093,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 48.26 113.03 0)
+		(at 54.61 114.3 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12581,7 +14104,7 @@
 		(fields_autoplaced yes)
 		(uuid "631997e5-8b62-4851-821e-dcfa9e18768e")
 		(property "Reference" "U13"
-			(at 48.26 102.87 0)
+			(at 54.61 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12591,7 +14114,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 48.26 105.41 0)
+			(at 54.61 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12601,7 +14124,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 48.26 113.03 0)
+			(at 54.61 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12612,7 +14135,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 48.26 113.03 0)
+			(at 54.61 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12623,7 +14146,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 48.26 113.03 0)
+			(at 54.61 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12634,7 +14157,51 @@
 			)
 		)
 		(property "KiLib_Generator" "package/gullwing"
-			(at 48.26 113.03 0)
+			(at 54.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 54.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 54.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 54.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "LM358"
+			(at 54.61 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12679,7 +14246,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 44.45 83.82 0)
+		(at 50.8 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12688,8 +14255,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64a6b720-742a-4006-81ac-b1107571393c")
-		(property "Reference" "C38"
-			(at 45.212 79.248 0)
+		(property "Reference" "C35"
+			(at 51.562 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12700,7 +14267,7 @@
 			)
 		)
 		(property "Value" "100N"
-			(at 44.958 81.28 0)
+			(at 51.308 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12711,7 +14278,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 45.4152 87.63 0)
+			(at 51.7652 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12722,7 +14289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 83.82 0)
+			(at 50.8 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12733,7 +14300,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 44.45 83.82 0)
+			(at 50.8 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12744,7 +14311,51 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 44.45 83.82 0)
+			(at 50.8 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 50.8 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 50.8 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 50.8 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A104KA5NNNC"
+			(at 50.8 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12763,7 +14374,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C38")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -12771,7 +14382,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 80.01 123.19 0)
+		(at 86.36 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12781,7 +14392,7 @@
 		(dnp no)
 		(uuid "65035b54-71d4-4b9d-8155-22c302f6e314")
 		(property "Reference" "U10"
-			(at 83.312 127 0)
+			(at 89.662 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12791,7 +14402,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 84.074 129.032 0)
+			(at 90.424 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12801,7 +14412,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 80.01 123.19 0)
+			(at 86.36 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12812,7 +14423,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 80.01 123.19 0)
+			(at 86.36 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12823,7 +14434,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 80.01 123.19 0)
+			(at 86.36 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12834,7 +14445,51 @@
 			)
 		)
 		(property "KiLib_Generator" "package/gullwing"
-			(at 80.01 123.19 0)
+			(at 86.36 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 86.36 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 86.36 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 86.36 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "LM358"
+			(at 86.36 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12932,6 +14587,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 200.66 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" " YG16-FL7.8-B10Ka(80)-R"
+			(at 200.66 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 200.66 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 200.66 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 200.66 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -13126,6 +14825,39 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 21.59 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 21.59 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 21.59 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
@@ -13146,7 +14878,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7306df76-bd3d-4f2f-b037-5af27d1ca8f0")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 173.99 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13212,6 +14944,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 173.99 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 173.99 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 173.99 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CRCW040250K0FKED"
+			(at 173.99 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e7751584-74de-4fd3-816d-690365bf30ec")
 		)
@@ -13221,7 +14997,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -13292,6 +15068,50 @@
 				)
 			)
 		)
+		(property "PN" " YG16-FL7.8-B10Ka(80)-R"
+			(at 236.22 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 236.22 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 236.22 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 236.22 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c8f63160-03f8-48c6-99f0-0a797a3a5ab4")
 		)
@@ -13321,7 +15141,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 93.98 77.47 90)
+		(at 100.33 78.74 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -13333,7 +15153,7 @@
 		(fields_autoplaced yes)
 		(uuid "756c91de-8f1c-4b0c-a566-3a8142dd2b59")
 		(property "Reference" "L8"
-			(at 93.98 72.39 90)
+			(at 100.33 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13343,7 +15163,7 @@
 			)
 		)
 		(property "Value" "2U2"
-			(at 93.98 74.93 90)
+			(at 100.33 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13353,7 +15173,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 93.98 77.47 0)
+			(at 100.33 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13364,7 +15184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 77.47 0)
+			(at 100.33 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13375,7 +15195,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 93.98 77.47 0)
+			(at 100.33 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13386,7 +15206,51 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 93.98 77.47 0)
+			(at 100.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CMH160808B2R2MT"
+			(at 100.33 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 100.33 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 100.33 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 100.33 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13422,7 +15286,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77031f92-3062-41aa-91ae-b14b37d58a94")
-		(property "Reference" "C16"
+		(property "Reference" "C14"
 			(at 266.954 83.566 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13486,6 +15350,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 270.51 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 270.51 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 270.51 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CC0402JRNPO9BN200"
+			(at 270.51 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "20fc31f6-9db6-42f5-ab39-80bdc7bdf7ef")
 		)
@@ -13495,7 +15403,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C16")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -13579,6 +15487,39 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 21.59 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 21.59 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 21.59 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
@@ -13590,7 +15531,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 87.63 0)
+		(at 74.93 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13601,7 +15542,7 @@
 		(fields_autoplaced yes)
 		(uuid "7893eb76-5a41-4a15-8dfa-715a5306f525")
 		(property "Reference" "#PWR0115"
-			(at 68.58 93.98 0)
+			(at 74.93 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13612,7 +15553,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 92.71 0)
+			(at 74.93 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13623,7 +15564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 87.63 0)
+			(at 74.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13634,7 +15575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 87.63 0)
+			(at 74.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13645,7 +15586,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 87.63 0)
+			(at 74.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13742,6 +15683,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 148.59 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 148.59 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 148.59 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "LM358"
+			(at 148.59 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "89988321-00fb-46ce-8d26-d55f898746fa")
 		)
@@ -13787,7 +15772,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b732e21-a97a-42b8-8909-c83052efce8d")
-		(property "Reference" "C23"
+		(property "Reference" "C21"
 			(at 188.468 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13851,6 +15836,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 191.77 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 191.77 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 191.77 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CC0402JRNPO9BN200"
+			(at 191.77 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4b0cd830-880b-4a96-9b1f-0ab038f42d12")
 		)
@@ -13860,7 +15889,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C23")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -13868,7 +15897,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 78.74 90.17 180)
+		(at 85.09 91.44 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13877,8 +15906,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7bca2478-cca9-47dd-8192-a347ede4edef")
-		(property "Reference" "R37"
-			(at 78.74 90.17 90)
+		(property "Reference" "R36"
+			(at 85.09 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13888,7 +15917,7 @@
 			)
 		)
 		(property "Value" "3K3"
-			(at 76.2 90.424 90)
+			(at 82.55 91.694 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13898,7 +15927,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 80.518 90.17 90)
+			(at 86.868 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13909,7 +15938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 90.17 0)
+			(at 85.09 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13920,7 +15949,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 78.74 90.17 0)
+			(at 85.09 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13931,7 +15960,51 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 78.74 90.17 0)
+			(at 85.09 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 85.09 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 85.09 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 85.09 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CRCW04023K30FKED"
+			(at 85.09 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13950,7 +16023,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R37")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -14047,7 +16120,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "873dcb1e-5c2c-497a-8cf5-fa304e363150")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 187.96 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14113,6 +16186,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 189.23 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 189.23 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 189.23 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RT0402BRD071KL"
+			(at 189.23 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "55c0272e-f044-4d85-a7b9-e21b8d480333")
 		)
@@ -14122,7 +16239,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -14130,7 +16247,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 21.59 158.75 0)
+		(at 27.94 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14141,7 +16258,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a7c9366-0a8c-417c-9a81-0845115d904c")
 		(property "Reference" "#PWR0130"
-			(at 21.59 165.1 0)
+			(at 27.94 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14152,7 +16269,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 21.59 163.83 0)
+			(at 27.94 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14163,7 +16280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 158.75 0)
+			(at 27.94 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14174,7 +16291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 158.75 0)
+			(at 27.94 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14185,7 +16302,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 158.75 0)
+			(at 27.94 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14209,7 +16326,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.82 80.01 90)
+		(at 90.17 81.28 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14218,8 +16335,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e37a68e-7de7-4b86-88c8-bb32b8fd68ed")
-		(property "Reference" "C55"
-			(at 82.042 81.28 90)
+		(property "Reference" "C51"
+			(at 88.392 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14230,7 +16347,7 @@
 			)
 		)
 		(property "Value" "100N"
-			(at 90.424 81.28 90)
+			(at 96.774 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14241,7 +16358,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 87.63 79.0448 0)
+			(at 93.98 80.3148 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14252,7 +16369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 80.01 0)
+			(at 90.17 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14263,7 +16380,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 83.82 80.01 0)
+			(at 90.17 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14274,7 +16391,51 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 83.82 80.01 0)
+			(at 90.17 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 90.17 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 90.17 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 90.17 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A104KA5NNNC"
+			(at 90.17 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14293,7 +16454,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C55")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -14375,6 +16536,50 @@
 				)
 			)
 		)
+		(property "PN" " VHF160808H4N7ST"
+			(at 264.16 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 264.16 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 264.16 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 264.16 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "52d254a5-0d55-4de7-b659-ff1466cefcea")
 		)
@@ -14392,7 +16597,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 58.42 137.16 0)
+		(at 64.77 138.43 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14402,7 +16607,7 @@
 		(dnp no)
 		(uuid "8f661e5c-c97d-4984-984f-b7465949b0c7")
 		(property "Reference" "U10"
-			(at 61.468 141.478 0)
+			(at 67.818 142.748 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14412,7 +16617,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 61.976 143.51 0)
+			(at 68.326 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14422,7 +16627,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 58.42 137.16 0)
+			(at 64.77 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14433,7 +16638,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 58.42 137.16 0)
+			(at 64.77 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14444,7 +16649,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 58.42 137.16 0)
+			(at 64.77 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14455,7 +16660,51 @@
 			)
 		)
 		(property "KiLib_Generator" "package/gullwing"
-			(at 58.42 137.16 0)
+			(at 64.77 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 64.77 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 64.77 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 64.77 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "LM358"
+			(at 64.77 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14579,7 +16828,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 143.51 90)
+		(at 40.64 144.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14590,7 +16839,7 @@
 		(fields_autoplaced yes)
 		(uuid "965376c9-1a96-454e-807a-808c0c41b043")
 		(property "Reference" "#PWR0114"
-			(at 40.64 143.51 0)
+			(at 46.99 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14601,7 +16850,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 143.51 0)
+			(at 45.72 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14612,7 +16861,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 143.51 0)
+			(at 40.64 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14623,7 +16872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 143.51 0)
+			(at 40.64 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14634,7 +16883,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 143.51 0)
+			(at 40.64 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14811,6 +17060,39 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 21.59 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 21.59 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 21.59 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
@@ -14898,6 +17180,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 16.51 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a0155c33-52a0-431e-8e98-9eeb14705619")
+		(property "Reference" "J8"
+			(at 16.51 135.128 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 17.145 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 16.51 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 16.51 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe66fd24-5f52-4904-ae79-3d6bda20cc44")
+		)
+		(instances
+			(project "RemoteController"
+				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LM358")
 		(at 148.59 177.8 0)
 		(unit 2)
@@ -14972,6 +17331,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 148.59 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 148.59 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 148.59 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "LM358"
+			(at 148.59 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "89988321-00fb-46ce-8d26-d55f898746fb")
 		)
@@ -15007,7 +17410,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 17.78 69.85 0)
+		(at 24.13 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15017,7 +17420,7 @@
 		(dnp no)
 		(uuid "a146d7fe-55b9-48de-b2f1-c3237f27deb5")
 		(property "Reference" "#FLG01"
-			(at 17.78 67.945 0)
+			(at 24.13 69.215 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15028,7 +17431,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 19.558 65.532 0)
+			(at 25.908 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15038,7 +17441,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 69.85 0)
+			(at 24.13 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15049,7 +17452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 69.85 0)
+			(at 24.13 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15060,7 +17463,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 17.78 69.85 0)
+			(at 24.13 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15084,7 +17487,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 93.98 0)
+		(at 85.09 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15095,7 +17498,7 @@
 		(fields_autoplaced yes)
 		(uuid "a33680b4-f0d3-48e1-bef3-e8c685be763e")
 		(property "Reference" "#PWR0121"
-			(at 78.74 100.33 0)
+			(at 85.09 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15106,7 +17509,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 99.06 0)
+			(at 85.09 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15117,7 +17520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 93.98 0)
+			(at 85.09 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15128,7 +17531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 93.98 0)
+			(at 85.09 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15139,7 +17542,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 93.98 0)
+			(at 85.09 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15321,7 +17724,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V0")
-		(at 105.41 74.93 0)
+		(at 111.76 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15332,7 +17735,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0142fe5-f6c9-4b7f-af8c-147db05e2569")
 		(property "Reference" "#PWR01"
-			(at 105.41 78.74 0)
+			(at 111.76 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15343,7 +17746,7 @@
 			)
 		)
 		(property "Value" "+3V0"
-			(at 105.41 69.85 0)
+			(at 111.76 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15353,7 +17756,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 74.93 0)
+			(at 111.76 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15364,7 +17767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 74.93 0)
+			(at 111.76 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15375,7 +17778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 105.41 74.93 0)
+			(at 111.76 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15487,7 +17890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b31dc68b-d3fa-4638-9a29-8451c4785b8e")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 170.18 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15553,6 +17956,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 170.18 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 170.18 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 170.18 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CRCW040250K0FKED"
+			(at 170.18 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "57450678-219b-419e-876b-cdfaf3da03f2")
 		)
@@ -15562,7 +18009,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -15570,7 +18017,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 106.68 0)
+		(at 33.02 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15581,7 +18028,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3ff1922-244f-411b-b558-9af0f12b3cf9")
 		(property "Reference" "#PWR0113"
-			(at 26.67 113.03 0)
+			(at 33.02 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15592,7 +18039,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 111.76 0)
+			(at 33.02 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15603,7 +18050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 106.68 0)
+			(at 33.02 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15614,7 +18061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 106.68 0)
+			(at 33.02 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15625,7 +18072,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 106.68 0)
+			(at 33.02 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15649,7 +18096,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 93.98 0)
+		(at 111.76 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15660,7 +18107,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9d992be-a4fc-499f-b8e1-1e5201544c9b")
 		(property "Reference" "#PWR0120"
-			(at 105.41 100.33 0)
+			(at 111.76 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15671,7 +18118,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 99.06 0)
+			(at 111.76 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15682,7 +18129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 93.98 0)
+			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15693,7 +18140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 93.98 0)
+			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15704,7 +18151,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 93.98 0)
+			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15728,7 +18175,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 24.13 100.33 270)
+		(at 30.48 101.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15739,7 +18186,7 @@
 		(fields_autoplaced yes)
 		(uuid "bfa8481f-31e7-478f-9798-e8f5743d4dba")
 		(property "Reference" "SW1"
-			(at 29.21 99.0599 90)
+			(at 35.56 100.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15750,7 +18197,7 @@
 			)
 		)
 		(property "Value" "ST-0-102-A01-T000-LF"
-			(at 29.21 101.5999 90)
+			(at 35.56 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15761,7 +18208,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
-			(at 24.13 100.33 0)
+			(at 30.48 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15772,7 +18219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 16.51 100.33 0)
+			(at 22.86 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15783,7 +18230,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 24.13 100.33 0)
+			(at 30.48 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15794,7 +18241,40 @@
 			)
 		)
 		(property "PN" "ST-0-102-A01-T000-LF"
-			(at 24.13 100.33 90)
+			(at 30.48 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 30.48 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 30.48 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 30.48 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15834,7 +18314,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c095a396-49ff-4e74-8162-baa5c7ac3a0b")
-		(property "Reference" "C14"
+		(property "Reference" "C12"
 			(at 278.892 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15900,6 +18380,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 280.67 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 280.67 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 280.67 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A105KO5NNNC"
+			(at 280.67 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a6ba9a8a-9984-4e62-9a43-db69e2f473e2")
 		)
@@ -15909,7 +18433,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C14")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -15992,6 +18516,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 189.23 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 189.23 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 189.23 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RT0402BRD071KL"
+			(at 189.23 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "95896361-6d1f-467d-b359-73fe31190d5f")
 		)
@@ -16009,7 +18577,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 99.06 90.17 0)
+		(at 105.41 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16018,8 +18586,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c83920ca-b0b5-4568-b597-30df90e1d73b")
-		(property "Reference" "C54"
-			(at 99.568 85.598 0)
+		(property "Reference" "C50"
+			(at 105.918 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16030,7 +18598,7 @@
 			)
 		)
 		(property "Value" "22U"
-			(at 99.568 87.63 0)
+			(at 105.918 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16041,7 +18609,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 100.0252 93.98 0)
+			(at 106.3752 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16052,7 +18620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 90.17 0)
+			(at 105.41 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16063,7 +18631,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 99.06 90.17 0)
+			(at 105.41 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16074,7 +18642,51 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 99.06 90.17 0)
+			(at 105.41 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 105.41 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 105.41 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 105.41 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "GRM155R60J226ME11D"
+			(at 105.41 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16093,7 +18705,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C54")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -16110,7 +18722,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf1ad00c-08d8-4d10-ad45-27ef23d93dcd")
-		(property "Reference" "C52"
+		(property "Reference" "C48"
 			(at 117.094 163.576 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16176,6 +18788,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 111.76 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 111.76 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 111.76 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A104KA5NNNC"
+			(at 111.76 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8532db06-8389-44ec-9f79-890a07c0763b")
 		)
@@ -16185,7 +18841,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C52")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -16363,7 +19019,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d76d97fe-dd8e-4866-a3dc-061a9bace94c")
-		(property "Reference" "C34"
+		(property "Reference" "C31"
 			(at 215.392 27.686 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16429,6 +19085,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 219.71 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 219.71 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 219.71 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A475MO5NUNC"
+			(at 219.71 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "93e52a4d-449a-4feb-b216-b79c98a62210")
 		)
@@ -16438,7 +19138,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C34")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -16456,7 +19156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d93c4149-4ff9-4097-a0f5-a307713d3563")
-		(property "Reference" "C31"
+		(property "Reference" "C28"
 			(at 215.646 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16522,6 +19222,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 219.71 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 219.71 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 219.71 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A104KA5NNNC"
+			(at 219.71 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bbae1ac2-046e-4f7d-abda-b88c48d71bbb")
 		)
@@ -16531,7 +19275,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C31")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -16604,6 +19348,39 @@
 			)
 		)
 		(property "PN" "Q13FC13500004"
+			(at 199.39 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 199.39 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 199.39 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 199.39 31.75 90)
 			(hide yes)
 			(show_name no)
@@ -16704,6 +19481,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 148.59 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 148.59 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 148.59 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "LM358"
+			(at 148.59 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "71e57680-15b3-4d4e-8148-a91a315c049f")
 		)
@@ -16739,7 +19560,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 64.77 116.84 180)
+		(at 71.12 118.11 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16748,8 +19569,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de1441a4-d541-4a03-82b4-3625fbcbbcdb")
-		(property "Reference" "R33"
-			(at 64.77 115.57 90)
+		(property "Reference" "R32"
+			(at 71.12 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16760,7 +19581,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 62.23 114.554 90)
+			(at 68.58 115.824 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16771,7 +19592,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 66.548 116.84 90)
+			(at 72.898 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16782,7 +19603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 116.84 0)
+			(at 71.12 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16793,7 +19614,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 64.77 116.84 0)
+			(at 71.12 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16804,7 +19625,51 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 64.77 116.84 0)
+			(at 71.12 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 71.12 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 71.12 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 71.12 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "FRC0402J103 TS"
+			(at 71.12 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16823,7 +19688,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R33")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -16919,7 +19784,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2d3c5cd-c6ee-455a-b751-da53a6f43fa1")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 187.96 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16985,6 +19850,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 189.23 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 189.23 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 189.23 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RT0402BRD071KL"
+			(at 189.23 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3d494727-0b40-487e-ab47-4f37d6f99184")
 		)
@@ -16994,7 +19903,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R11")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -17159,7 +20068,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 21.59 132.08 0)
+		(at 27.94 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17170,7 +20079,7 @@
 		(fields_autoplaced yes)
 		(uuid "e414f63a-d215-457b-a489-6d662090a1c5")
 		(property "Reference" "BT2"
-			(at 25.4 128.9684 0)
+			(at 31.75 130.2384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17181,7 +20090,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 25.4 131.5084 0)
+			(at 31.75 132.7784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17192,7 +20101,7 @@
 			)
 		)
 		(property "Footprint" "steew:BH-AAA-B5BA021"
-			(at 21.59 130.556 90)
+			(at 27.94 131.826 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17203,7 +20112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 130.556 90)
+			(at 27.94 131.826 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17213,8 +20122,8 @@
 				)
 			)
 		)
-		(property "Description" "Single-cell battery"
-			(at 21.59 132.08 0)
+		(property "Description" ""
+			(at 27.94 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17224,8 +20133,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "V"
-			(at 21.59 132.08 0)
+		(property "PN" "BH-AAA-B5BA021"
+			(at 27.94 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17235,8 +20144,8 @@
 				)
 			)
 		)
-		(property "Sim.Type" "DC"
-			(at 21.59 132.08 0)
+		(property "Sim.Device" ""
+			(at 27.94 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17246,8 +20155,19 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 21.59 132.08 0)
+		(property "Sim.Pins" ""
+			(at 27.94 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 27.94 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17821,6 +20741,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 107.95 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 107.95 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 107.95 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "LM358"
+			(at 107.95 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "89988321-00fb-46ce-8d26-d55f898746fc")
 		)
@@ -17943,6 +20907,39 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 189.23 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 189.23 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 189.23 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e3dbc65b-f225-4c3f-9788-43a6f50d9790")
 		)
@@ -18036,6 +21033,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 97.79 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 97.79 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 97.79 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "LM358"
+			(at 97.79 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "89988321-00fb-46ce-8d26-d55f898746fd")
 		)
@@ -18071,7 +21112,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 105.41 90.17 0)
+		(at 111.76 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18080,8 +21121,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f184499f-91d4-424d-b546-15a8b627d8b1")
-		(property "Reference" "C53"
-			(at 106.172 85.598 0)
+		(property "Reference" "C49"
+			(at 112.522 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18092,7 +21133,7 @@
 			)
 		)
 		(property "Value" "22U"
-			(at 105.918 87.63 0)
+			(at 112.268 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18103,7 +21144,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 106.3752 93.98 0)
+			(at 112.7252 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18114,7 +21155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 90.17 0)
+			(at 111.76 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18125,7 +21166,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 105.41 90.17 0)
+			(at 111.76 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18136,7 +21177,51 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 105.41 90.17 0)
+			(at 111.76 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 111.76 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 111.76 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 111.76 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "GRM155R60J226ME11D"
+			(at 111.76 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18155,7 +21240,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C53")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -18163,7 +21248,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 53.34 83.82 0)
+		(at 59.69 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18172,8 +21257,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6bb3327-6bcc-4f49-a6e7-3ba39e4a3bf2")
-		(property "Reference" "R35"
-			(at 53.34 85.09 90)
+		(property "Reference" "R34"
+			(at 59.69 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18184,7 +21269,7 @@
 			)
 		)
 		(property "Value" "50K"
-			(at 55.88 86.106 90)
+			(at 62.23 87.376 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18195,7 +21280,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 51.562 83.82 90)
+			(at 57.912 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18206,7 +21291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 83.82 0)
+			(at 59.69 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18217,7 +21302,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 53.34 83.82 0)
+			(at 59.69 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18228,7 +21313,51 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 53.34 83.82 0)
+			(at 59.69 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 59.69 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 59.69 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 59.69 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CRCW040250K0FKED"
+			(at 59.69 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18247,7 +21376,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R35")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -18431,6 +21560,39 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 261.62 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 261.62 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 261.62 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "5ca57109-b5cc-40ea-bee5-deb471b7b62f")
 		)
@@ -18533,7 +21695,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 129.54 0)
+		(at 71.12 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18544,7 +21706,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc188232-9e6f-4f7c-a9e0-443e9692588e")
 		(property "Reference" "#PWR0131"
-			(at 64.77 135.89 0)
+			(at 71.12 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18555,7 +21717,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 134.62 0)
+			(at 71.12 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18566,7 +21728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 129.54 0)
+			(at 71.12 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18577,7 +21739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 129.54 0)
+			(at 71.12 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18588,7 +21750,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 129.54 0)
+			(at 71.12 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18612,7 +21774,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 31.75 83.82 0)
+		(at 38.1 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18621,8 +21783,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc92beeb-d18c-4039-84ad-f8e434ec2912")
-		(property "Reference" "C56"
-			(at 32.004 79.248 0)
+		(property "Reference" "C52"
+			(at 38.354 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18633,7 +21795,7 @@
 			)
 		)
 		(property "Value" "10U"
-			(at 32.004 81.28 0)
+			(at 38.354 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18644,7 +21806,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 32.7152 87.63 0)
+			(at 39.0652 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18655,7 +21817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 83.82 0)
+			(at 38.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18666,7 +21828,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 31.75 83.82 0)
+			(at 38.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18677,7 +21839,51 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 31.75 83.82 0)
+			(at 38.1 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 38.1 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 38.1 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 38.1 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A106MQ5NUNC"
+			(at 38.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18696,7 +21902,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C56")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -18784,7 +21990,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 132.08 90)
+		(at 82.55 133.35 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18793,8 +21999,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff42b864-3326-42fc-beeb-5a6a8752ad7b")
-		(property "Reference" "R26"
-			(at 77.47 132.08 90)
+		(property "Reference" "R25"
+			(at 83.82 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18805,7 +22011,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 78.486 129.54 90)
+			(at 84.836 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18816,7 +22022,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 76.2 133.858 90)
+			(at 82.55 135.128 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18827,7 +22033,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 132.08 0)
+			(at 82.55 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18838,7 +22044,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 132.08 0)
+			(at 82.55 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18849,7 +22055,51 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 76.2 132.08 0)
+			(at 82.55 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 82.55 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 82.55 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 82.55 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CRCW04020000Z0EE"
+			(at 82.55 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18868,7 +22118,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "R26")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -18952,6 +22202,39 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 275.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 275.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 275.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "689d826b-f634-462d-a926-b58ea72d8432")
 		)
@@ -18985,7 +22268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffe87bb0-8b11-4be8-b62a-4e05dcdb84ac")
-		(property "Reference" "C32"
+		(property "Reference" "C29"
 			(at 263.652 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19051,6 +22334,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 265.43 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 265.43 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 265.43 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "CL05A104KA5NNNC"
+			(at 265.43 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1bac7033-ceb6-47b2-bc5d-e70d00e209d6")
 		)
@@ -19060,7 +22387,7 @@
 		(instances
 			(project "RemoteController"
 				(path "/2496396e-da71-4b2e-9ac4-452e5130442d"
-					(reference "C32")
+					(reference "C29")
 					(unit 1)
 				)
 			)
